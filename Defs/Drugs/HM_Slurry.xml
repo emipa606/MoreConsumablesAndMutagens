@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="CrystalDrugBase">
     <defName>MutagenSlurry</defName>
     <label>mutagenic slurry</label>
@@ -13,21 +12,21 @@
     <statBases>
       <WorkToMake>750</WorkToMake>
       <MarketValue>300</MarketValue>
-	  <Nutrition>0.08</Nutrition>
+      <Nutrition>0.08</Nutrition>
     </statBases>
     <techLevel>Spacer</techLevel>
     <ingestible>
-	  <foodType>Processed</foodType>
+      <foodType>Processed</foodType>
       <drugCategory>Medical</drugCategory>
-	  <ingestSound>Ingest_Beer</ingestSound>
-	  <ingestHoldOffsetStanding>
+      <ingestSound>Ingest_Beer</ingestSound>
+      <ingestHoldOffsetStanding>
         <northDefault>
           <offset>(0.18,0,0)</offset>
         </northDefault>
       </ingestHoldOffsetStanding>
-	  <ingestHoldUsesTable>false</ingestHoldUsesTable>
-	  <baseIngestTicks>240</baseIngestTicks>
-	  <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <baseIngestTicks>240</baseIngestTicks>
+      <ingestCommandString>Drink {0}</ingestCommandString>
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
@@ -38,14 +37,12 @@
     </ingestible>
     <comps>
       <li Class="CompProperties_Drug">
-		<addictiveness>0</addictiveness>
+        <addictiveness>0</addictiveness>
         <needLevelOffset>1</needLevelOffset>
         <listOrder>1950</listOrder>
       </li>
     </comps>
   </ThingDef>
-  
-  
   <RecipeDef>
     <defName>MakeMutagenSlurry</defName>
     <label>make mutagenic slurry</label>
@@ -55,7 +52,7 @@
     <workSpeedStat>DrugCookingSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_CookMeal</soundWorking>
-	<allowMixingIngredients>true</allowMixingIngredients>
+    <allowMixingIngredients>true</allowMixingIngredients>
     <ingredients>
       <li>
         <filter>
@@ -73,7 +70,7 @@
         </filter>
         <count>10</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <thingDefs>
             <li>MedicineIndustrial</li>
@@ -97,12 +94,12 @@
     <defaultIngredientFilter>
       <categories>
         <li>Foods</li>
-		<li>Items</li>
-		<li>Medicine</li>
+        <li>Items</li>
+        <li>Medicine</li>
       </categories>
     </defaultIngredientFilter>
     <workSkill>Intellectual</workSkill>
-	<recipeUsers>
+    <recipeUsers>
       <li>DrugLab</li>
     </recipeUsers>
     <researchPrerequisite>MutagenTwo</researchPrerequisite>
@@ -111,25 +108,22 @@
       <Cooking>4</Cooking>
     </skillRequirements>
   </RecipeDef>
-  
   <!-- mutations -->
-  
   <HediffDef ParentName="CrystalDrugMutationBase">
     <defName>SlurryWithering</defName>
     <label>mutation: withering</label>
     <description>mutation: withering</description>
     <stages>
       <li>
-	    <capMods>
+        <capMods>
           <li>
             <capacity>BloodFiltration</capacity>
             <offset>-0.10</offset>
           </li>
-	    </capMods>
+        </capMods>
       </li>
     </stages>
   </HediffDef>
-  
   <HediffDef ParentName="CrystalDrugMutationBase">
     <defName>SlurrySlimy</defName>
     <label>mutation: slimy skin</label>
@@ -137,17 +131,16 @@
     <stages>
       <li>
         <statOffsets>
-		  <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
-		  <ComfyTemperatureMin>3</ComfyTemperatureMin>
+          <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+          <ComfyTemperatureMin>3</ComfyTemperatureMin>
         </statOffsets>
-		<makeImmuneTo>
+        <makeImmuneTo>
           <li>SilSkin</li>
-		  <li>UrsaFur</li>
+          <li>UrsaFur</li>
         </makeImmuneTo>
       </li>
     </stages>
   </HediffDef>
-  
   <HediffDef ParentName="CrystalDrugMutationBase">
     <defName>SlurryWired</defName>
     <label>mutation: wired</label>
@@ -155,103 +148,96 @@
     <stages>
       <li>
         <restFallFactor>0.85</restFallFactor>
-		<makeImmuneTo>
+        <makeImmuneTo>
           <li>UrsaSleep</li>
         </makeImmuneTo>
       </li>
     </stages>
   </HediffDef>
-  
   <HediffDef ParentName="CrystalDrugMutationPartBase">
-      <defName>SlurryEyes</defName>
-      <label>mutation: lizard eyes</label>
-      <description>mutation: lizard eyes</description>
-      <addedPartProps>
-         <partEfficiency>1.10</partEfficiency>
-         <solid>false</solid>
-      </addedPartProps>
-      <stages>
-		<li>
-          <statOffsets>
-            <SocialImpact>-0.08</SocialImpact>
-			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
-          </statOffsets>
-		  <capMods>
-            <li>
-              <capacity>Sight</capacity>
-              <offset>0.05</offset>
-            </li>
-	      </capMods>
-		</li>	 
-      </stages>
-   </HediffDef>
-   
-   <HediffDef ParentName="CrystalDrugMutationBase">
+    <defName>SlurryEyes</defName>
+    <label>mutation: lizard eyes</label>
+    <description>mutation: lizard eyes</description>
+    <addedPartProps>
+      <partEfficiency>1.10</partEfficiency>
+      <solid>false</solid>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <SocialImpact>-0.08</SocialImpact>
+          <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="CrystalDrugMutationBase">
     <defName>SlurryStrong</defName>
     <label>mutation: strong</label>
     <description>mutation: strong</description>
     <stages>
       <li>
-	    <statOffsets>
-		  <CarryingCapacity>10</CarryingCapacity>
-		  <MeleeHitChance>0.1</MeleeHitChance>
-		  <MiningSpeed>0.1</MiningSpeed>
+        <statOffsets>
+          <CarryingCapacity>10</CarryingCapacity>
+          <MeleeHitChance>0.1</MeleeHitChance>
+          <MiningSpeed>0.1</MiningSpeed>
         </statOffsets>
       </li>
     </stages>
   </HediffDef>
-  
   <HediffDef ParentName="CrystalDrugMutationBase">
     <defName>SlurryAgile</defName>
     <label>mutation: agile</label>
     <description>mutation: agile</description>
     <stages>
       <li>
-	    <statOffsets>
-		  <MeleeHitChance>0.1</MeleeHitChance>
-		  <MeleeDodgeChance>0.1</MeleeDodgeChance>
+        <statOffsets>
+          <MeleeHitChance>0.1</MeleeHitChance>
+          <MeleeDodgeChance>0.1</MeleeDodgeChance>
         </statOffsets>
-		<makeImmuneTo>
+        <makeImmuneTo>
           <li>SlurryStagnant</li>
         </makeImmuneTo>
       </li>
     </stages>
   </HediffDef>
-  
   <HediffDef ParentName="CrystalDrugMutationBase">
     <defName>SlurryStagnant</defName>
     <label>mutation: stagnant</label>
     <description>mutation: stagnant</description>
     <stages>
       <li>
-	    <statOffsets>
-		  <MeleeHitChance>-0.1</MeleeHitChance>
-		  <MeleeDodgeChance>-0.1</MeleeDodgeChance>
+        <statOffsets>
+          <MeleeHitChance>-0.1</MeleeHitChance>
+          <MeleeDodgeChance>-0.1</MeleeDodgeChance>
         </statOffsets>
-		<makeImmuneTo>
+        <makeImmuneTo>
           <li>SlurryAgile</li>
         </makeImmuneTo>
       </li>
     </stages>
   </HediffDef>
-  
   <HediffDef ParentName="CrystalDrugMutationBase">
     <defName>SlurrySooth</defName>
     <label>mutation: soothing aura</label>
     <description>mutation: soothing aura</description>
     <stages>
       <li>
-	    <statOffsets>
-		  <SocialImpact>0.15</SocialImpact>
-		  <TameAnimalChance>0.1</TameAnimalChance>
-		  <TradePriceImprovement>0.1</TradePriceImprovement>
+        <statOffsets>
+          <SocialImpact>0.15</SocialImpact>
+          <TameAnimalChance>0.1</TameAnimalChance>
+          <TradePriceImprovement>0.1</TradePriceImprovement>
         </statOffsets>
       </li>
     </stages>
   </HediffDef>
-
   <!-- Mutation Phase -->
-  
   <HediffDef>
     <defName>SlurryHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
@@ -265,185 +251,184 @@
         <severityPerDay>-0.30</severityPerDay>
       </li>
     </comps>
-      <stages>
-	    <li>
-		  <label>receding</label>
-          <minSeverity>0</minSeverity>
-          <capMods>
-            <li>
-              <capacity>Consciousness</capacity>
-              <offset>-0.05</offset>
-            </li>
-			<li>
-              <capacity>Moving</capacity>
-              <offset>-0.05</offset>
-            </li>
-          </capMods>
-		</li>
-        <li>
-		  <label>active</label>
-		  <minSeverity>0.35</minSeverity>
-          <painFactor>1.6</painFactor>
-		  <hungerRateFactor>1.6</hungerRateFactor>
-		  <vomitMtbDays>3</vomitMtbDays>
-          <capMods>
-            <li>
-              <capacity>Consciousness</capacity>
-              <offset>-0.35</offset>
-            </li>
-            <li>
-              <capacity>Moving</capacity>
-              <offset>-0.30</offset>
-            </li>
-			<li>
-              <capacity>Sight</capacity>
-              <offset>-0.20</offset>
-            </li>
-			<li>
-              <capacity>Manipulation</capacity>
-              <offset>-0.40</offset>
-            </li>
-          </capMods>
-		  <hediffGivers>
-            <li Class="HediffGiver_Random">
-              <hediff>SlurryWithering</hediff>
-              <mtbDays>16</mtbDays>
-			  <partsToAffect>
-                <li>Heart</li>
-              </partsToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>SlurrySlimy</hediff>
-              <mtbDays>18</mtbDays>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>SlurryWired</hediff>
-              <mtbDays>18</mtbDays>
-			  <partsToAffect>
-                <li>Brain</li>
-              </partsToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>UrsaClaws</hediff>
-              <mtbDays>14</mtbDays>
-			  <partsToAffect>
-                <li>Hand</li>
-              </partsToAffect>
-			  <countToAffect>2</countToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>SlurryStrong</hediff>
-              <mtbDays>19</mtbDays>
-			  <partsToAffect>
-                <li>Arm</li>
-              </partsToAffect>
-			  <countToAffect>2</countToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>UrsaDisfigured</hediff>
-              <mtbDays>14</mtbDays>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>SlurryAgile</hediff>
-              <mtbDays>15</mtbDays>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>SlurryStagnant</hediff>
-              <mtbDays>14</mtbDays>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>UrsaSlow</hediff>
-              <mtbDays>13</mtbDays>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>SlurrySooth</hediff>
-              <mtbDays>21</mtbDays>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>IgniFurnace</hediff>
-              <mtbDays>15</mtbDays>
-			  <partsToAffect>
-                <li>Stomach</li>
-              </partsToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>IgniSpeed</hediff>
-              <mtbDays>15</mtbDays>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>SilEyes</hediff>
-              <mtbDays>19</mtbDays>
-			  <partsToAffect>
-                <li>Eye</li>
-              </partsToAffect>
-			  <countToAffect>2</countToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>SlurryEyes</hediff>
-              <mtbDays>18</mtbDays>
-			  <partsToAffect>
-                <li>Eye</li>
-              </partsToAffect>
-			  <countToAffect>2</countToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>SilDegraded</hediff>
-              <mtbDays>17</mtbDays>
-			  <partsToAffect>
-                <li>Brain</li>
-              </partsToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>MidiaRough</hediff>
-              <mtbDays>14</mtbDays>
-			  <partsToAffect>
-                <li>Neck</li>
-              </partsToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>MyrolLung</hediff>
-              <mtbDays>26</mtbDays>
-			  <partsToAffect>
-                <li>Lung</li>
-              </partsToAffect>
-			  <countToAffect>2</countToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>MidiaKeen</hediff>
-              <mtbDays>26</mtbDays>
-			  <partsToAffect>
-                <li>Brain</li>
-              </partsToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>MidiaBlur</hediff>
-              <mtbDays>18</mtbDays>
-			  <partsToAffect>
-                <li>Eye</li>
-              </partsToAffect>
-			  <countToAffect>2</countToAffect>
-            </li>
-          </hediffGivers>
-        </li>
-		<li>
-		  <label>initial</label>
-          <minSeverity>0.85</minSeverity>
-          <capMods>
-            <li>
-              <capacity>Consciousness</capacity>
-              <offset>-0.05</offset>
-            </li>
-          </capMods>
-		</li>
-      </stages>
+    <stages>
+      <li>
+        <label>receding</label>
+        <minSeverity>0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.05</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>active</label>
+        <minSeverity>0.35</minSeverity>
+        <painFactor>1.6</painFactor>
+        <hungerRateFactor>1.6</hungerRateFactor>
+        <vomitMtbDays>3</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.35</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.30</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.40</offset>
+          </li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>SlurryWithering</hediff>
+            <mtbDays>16</mtbDays>
+            <partsToAffect>
+              <li>Heart</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>SlurrySlimy</hediff>
+            <mtbDays>18</mtbDays>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>SlurryWired</hediff>
+            <mtbDays>18</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>UrsaClaws</hediff>
+            <mtbDays>14</mtbDays>
+            <partsToAffect>
+              <li>Hand</li>
+            </partsToAffect>
+            <countToAffect>2</countToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>SlurryStrong</hediff>
+            <mtbDays>19</mtbDays>
+            <partsToAffect>
+              <li>Arm</li>
+            </partsToAffect>
+            <countToAffect>2</countToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>UrsaDisfigured</hediff>
+            <mtbDays>14</mtbDays>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>SlurryAgile</hediff>
+            <mtbDays>15</mtbDays>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>SlurryStagnant</hediff>
+            <mtbDays>14</mtbDays>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>UrsaSlow</hediff>
+            <mtbDays>13</mtbDays>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>SlurrySooth</hediff>
+            <mtbDays>21</mtbDays>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>IgniFurnace</hediff>
+            <mtbDays>15</mtbDays>
+            <partsToAffect>
+              <li>Stomach</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>IgniSpeed</hediff>
+            <mtbDays>15</mtbDays>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>SilEyes</hediff>
+            <mtbDays>19</mtbDays>
+            <partsToAffect>
+              <li>Eye</li>
+            </partsToAffect>
+            <countToAffect>2</countToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>SlurryEyes</hediff>
+            <mtbDays>18</mtbDays>
+            <partsToAffect>
+              <li>Eye</li>
+            </partsToAffect>
+            <countToAffect>2</countToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>SilDegraded</hediff>
+            <mtbDays>17</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>MidiaRough</hediff>
+            <mtbDays>14</mtbDays>
+            <partsToAffect>
+              <li>Neck</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>MyrolLung</hediff>
+            <mtbDays>26</mtbDays>
+            <partsToAffect>
+              <li>Lung</li>
+            </partsToAffect>
+            <countToAffect>2</countToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>MidiaKeen</hediff>
+            <mtbDays>26</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>MidiaBlur</hediff>
+            <mtbDays>18</mtbDays>
+            <partsToAffect>
+              <li>Eye</li>
+            </partsToAffect>
+            <countToAffect>2</countToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+      <li>
+        <label>initial</label>
+        <minSeverity>0.85</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
   </HediffDef>
-  
   <ThoughtDef>
     <defName>SlurryReaction</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>SlurryHigh</hediff>
     <stages>
-	  <li>
+      <li>
         <label>mutagenic reaction (slurry)</label>
         <description>That slurry was downright disgusting and my body doesn't feel right.</description>
         <baseMoodEffect>-12</baseMoodEffect>
@@ -453,12 +438,11 @@
         <description>My insides feel like they are on fire!</description>
         <baseMoodEffect>-30</baseMoodEffect>
       </li>
-	  <li>
+      <li>
         <label>mutagenic reaction (slurry)</label>
         <description>I am really uneasy.</description>
         <baseMoodEffect>-7</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
-  
 </Defs>

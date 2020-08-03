@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Midia.label>midia</Midia.label>
+  <Midia.description>A purple pill with a mutagenic serum inside, anyone who consumes the pill mutates irreversibly. Midia is known as one of the earliest mind altering mutagens that was proven to be safe enough for specialized use.</Midia.description>
+  <Midia.ingestible.ingestCommandString>Take {0}</Midia.ingestible.ingestCommandString>
+  <Midia.ingestible.ingestReportString>Taking {0}.</Midia.ingestible.ingestReportString>
+
+
+</LanguageData>

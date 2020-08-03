@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AmbrosiaTeaHappy.stages.0.label>buzzed-hidden</AmbrosiaTeaHappy.stages.0.label>
+  <AmbrosiaTeaHappy.stages.0.description>Should not appear.</AmbrosiaTeaHappy.stages.0.description>
+  <AmbrosiaTeaHappy.stages.1.label>Ambrosia iced tea</AmbrosiaTeaHappy.stages.1.label>
+  <AmbrosiaTeaHappy.stages.1.description>That was satisfying.</AmbrosiaTeaHappy.stages.1.description>
+
+
+  <!-- Alcohol addiction -->
+
+  <AmbrosiaTeaWithdrawal.stages.1.label>ambrosia tea withdrawal</AmbrosiaTeaWithdrawal.stages.1.label>
+  <AmbrosiaTeaWithdrawal.stages.1.description>Feeling shaky.</AmbrosiaTeaWithdrawal.stages.1.description>
+
+
+</LanguageData>

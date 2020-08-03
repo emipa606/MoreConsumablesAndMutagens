@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef Abstract="True" Name="SOrganicProductBase" ParentName="ResourceBase">
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -9,27 +8,25 @@
       <MaxHitPoints>60</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>6</DeteriorationRate>
-			<Mass>0.03</Mass>
+      <Mass>0.03</Mass>
     </statBases>
     <tickerType>Rare</tickerType>
   </ThingDef>
-
-  <ThingDef Abstract="True" Name="CraftableEggBase" ParentName="SOrganicProductBase" >
+  <ThingDef Abstract="True" Name="CraftableEggBase" ParentName="SOrganicProductBase">
     <graphicData>
       <texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <Mass>0.15</Mass>
-	  <MaxHitPoints>20</MaxHitPoints>
-	  <DeteriorationRate>2</DeteriorationRate>
+      <MaxHitPoints>20</MaxHitPoints>
+      <DeteriorationRate>2</DeteriorationRate>
     </statBases>
-	<thingCategories>
+    <thingCategories>
       <li>EggsFertilized</li>
     </thingCategories>
   </ThingDef>
-  
-  <ThingDef Abstract="True" Name="SEggBase" ParentName="SOrganicProductBase" >
+  <ThingDef Abstract="True" Name="SEggBase" ParentName="SOrganicProductBase">
     <graphicData>
       <texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -44,12 +41,11 @@
     <statBases>
       <Nutrition>0.25</Nutrition>
       <Mass>0.15</Mass>
-			<MaxHitPoints>20</MaxHitPoints>
-			<DeteriorationRate>2</DeteriorationRate>
+      <MaxHitPoints>20</MaxHitPoints>
+      <DeteriorationRate>2</DeteriorationRate>
     </statBases>
   </ThingDef>
-
-  <ThingDef Abstract="True" Name="SEggUnfertBase" ParentName="SEggBase" >
+  <ThingDef Abstract="True" Name="SEggUnfertBase" ParentName="SEggBase">
     <ingestible>
       <preferability>DesperateOnly</preferability>
     </ingestible>
@@ -59,13 +55,12 @@
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>15</daysToRotStart>
-				<rotDestroys>true</rotDestroys>
-			</li>
+        <rotDestroys>true</rotDestroys>
+      </li>
       <li Class="CompProperties_FoodPoisonable" />
     </comps>
   </ThingDef>
-
-  <ThingDef Abstract="True" Name="SEggFertBase" ParentName="SEggBase" >
+  <ThingDef Abstract="True" Name="SEggFertBase" ParentName="SEggBase">
     <tickerType>Normal</tickerType>
     <ingestible>
       <preferability>DesperateOnly</preferability>
@@ -73,38 +68,36 @@
     <thingCategories>
       <li>EggsFertilized</li>
     </thingCategories>
-		<comps>
-			<li Class="CompProperties_FoodPoisonable" />
-			<li Class="CompProperties_TemperatureRuinable">
-				<minSafeTemperature>0</minSafeTemperature>
-				<maxSafeTemperature>50</maxSafeTemperature>
-				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
-			</li>
-		</comps>
+    <comps>
+      <li Class="CompProperties_FoodPoisonable" />
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+      </li>
+    </comps>
   </ThingDef>
-  
   <ThingDef ParentName="SEggUnfertBase">
     <defName>EggSlimeUnfertilized</defName>
     <label>slime egg (unfert.)</label>
     <description>Some strange egg thing layed by a mutagenic slime. It can be eaten.</description>
     <graphicData>
-	  <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
       <color>(52,201,52)</color>
-	  <drawSize>1.3</drawSize>
+      <drawSize>1.3</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>55.0</MarketValue>
     </statBases>
   </ThingDef>
-
   <ThingDef ParentName="SEggFertBase">
     <defName>EggSlimeFertilized</defName>
     <label>slime egg (fert.)</label>
     <description>Some strange fertilized slime egg. If all goes well, it should hatch into a slime. It can be eaten.</description>
     <graphicData>
-	  <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
       <color>(52,201,52)</color>
-	  <drawSize>1.3</drawSize>
+      <drawSize>1.3</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>150.0</MarketValue>
@@ -116,33 +109,31 @@
       </li>
     </comps>
   </ThingDef>
-
   <ThingDef ParentName="CraftableEggBase">
     <defName>CatalystSerum</defName>
     <label>catalyst serum</label>
     <description>Disgusting slurry of medical supplies and raw meat that breaks down into a mutagenic sludge.</description>
     <graphicData>
       <color>(245,245,245)</color>
-	  <texPath>Things/CatalystSerum</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/CatalystSerum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
-	<tickerType>Normal</tickerType>
+    <tickerType>Normal</tickerType>
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>1.5</hatcherDaystoHatch>
         <hatcherPawn>CMSlime</hatcherPawn>
       </li>
-	  <li Class="CompProperties_TemperatureRuinable">
-		<minSafeTemperature>-5</minSafeTemperature>
-		<maxSafeTemperature>55</maxSafeTemperature>
-		<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
-	  </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>-5</minSafeTemperature>
+        <maxSafeTemperature>55</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
-  
   <RecipeDef>
     <defName>MakeCatalystSerum</defName>
     <label>make catalyst serum</label>
@@ -152,7 +143,7 @@
     <workSpeedStat>DrugCookingSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_CookMeal</soundWorking>
-	<allowMixingIngredients>true</allowMixingIngredients>
+    <allowMixingIngredients>true</allowMixingIngredients>
     <ingredients>
       <li>
         <filter>
@@ -170,7 +161,7 @@
         </filter>
         <count>2</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <thingDefs>
             <li>MedicineIndustrial</li>
@@ -194,12 +185,12 @@
     <defaultIngredientFilter>
       <categories>
         <li>Foods</li>
-		<li>Manufactured</li>
-		<li>Medicine</li>
+        <li>Manufactured</li>
+        <li>Medicine</li>
       </categories>
     </defaultIngredientFilter>
     <workSkill>Intellectual</workSkill>
-	<recipeUsers>
+    <recipeUsers>
       <li>DrugLab</li>
     </recipeUsers>
     <researchPrerequisite>MutagenOne</researchPrerequisite>
@@ -208,6 +199,4 @@
       <Cooking>4</Cooking>
     </skillRequirements>
   </RecipeDef>
-  
-  
 </Defs>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Ichorio.label>ichorio</Ichorio.label>
+  <Ichorio.description>A bottle containing an extraordinarily rare iridescent golden fluid. Almost like something out of a fairytale, it grants the drinker power. Effects can stack up to four times.</Ichorio.description>
+  <Ichorio.ingestible.ingestCommandString>Drink {0}</Ichorio.ingestible.ingestCommandString>
+  <Ichorio.ingestible.ingestReportString>Drinking {0}.</Ichorio.ingestible.ingestReportString>
+
+
+</LanguageData>

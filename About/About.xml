@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>More Consumables and Mutagens (Continued)</name>
-  	<packageId>Mlie.MoreConsumablesAndMutagens</packageId>
-	<author>AtomicRavioli</author>
-	<url>https://github.com/emipa606/MoreConsumablesAndMutagens</url>
-	<supportedVersions>
-		<li>1.1</li>
-	</supportedVersions>
-	<modDependencies />
-	<loadAfter />
-	<description>Update of AtomicRaviolis mod for RimWorld 1.1
+  <packageId>Mlie.MoreConsumablesAndMutagens</packageId>
+  <author>AtomicRavioli</author>
+  <url>https://github.com/emipa606/MoreConsumablesAndMutagens</url>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>Update of AtomicRaviolis mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=939909531
 
 [img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]

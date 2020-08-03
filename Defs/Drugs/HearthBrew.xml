@@ -1,29 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="NDrugBase">
     <defName>HearthBrew</defName>
     <label>Hearth brew</label>
     <description>A warming and mildly alcoholic drink traditionally served in the winter to celebrate festivities.</description>
-	
-	<graphicData>
+    <graphicData>
       <texPath>Things/HearthBrew</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-	
     <rotatable>false</rotatable>
     <stackLimit>25</stackLimit>
-	<tickerType>Rare</tickerType>
-	<techLevel>Industrial</techLevel>
-	<socialPropernessMatters>true</socialPropernessMatters>
-	
+    <tickerType>Rare</tickerType>
+    <techLevel>Industrial</techLevel>
+    <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
       <DeteriorationRate>0.6</DeteriorationRate>
       <MarketValue>5</MarketValue>
       <Mass>0.3</Mass>
       <Nutrition>0.11</Nutrition>
     </statBases>
-	
     <ingestible>
       <foodType>Fluid, Processed</foodType>
       <joy>0.20</joy>
@@ -43,7 +38,7 @@
           <hediffDef>HearthBrewHigh</hediffDef>
           <severity>0.5</severity>
         </li>
-		<li Class="IngestionOutcomeDoer_GiveHediff">
+        <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>AlcoholHigh</hediffDef>
           <severity>0.075</severity>
           <toleranceChemical>Alcohol</toleranceChemical>
@@ -51,11 +46,10 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>AlcoholTolerance</hediffDef>
           <severity>0.032</severity>
-		  <divideByBodySize>true</divideByBodySize>
-		</li>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
       </outcomeDoers>
     </ingestible>
-	
     <comps>
       <li Class="CompProperties_Drug">
         <chemical>Alcohol</chemical>
@@ -65,13 +59,12 @@
         <needLevelOffset>1</needLevelOffset>
         <listOrder>10</listOrder>
       </li>
-	  <li Class="CompProperties_Rottable">
+      <li Class="CompProperties_Rottable">
         <daysToRotStart>4</daysToRotStart>
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
   </ThingDef>
-  
   <HediffDef>
     <defName>HearthBrewHigh</defName>
     <hediffClass>Hediff_Alcohol</hediffClass>
@@ -84,30 +77,29 @@
         <severityPerDay>-0.8</severityPerDay>
       </li>
     </comps>
-      <stages>
-        <li>
-          <label>warmed-hidden</label>
-        </li>
-        <li>
-          <minSeverity>0.2</minSeverity>
-          <label>warmed</label>
-		  <statOffsets>
-		    <ComfyTemperatureMin>-6</ComfyTemperatureMin>
-			<SocialImpact>0.1</SocialImpact>
-		  </statOffsets>
-        </li>
-        <li>
-          <minSeverity>0.75</minSeverity>
-          <label>cozy</label>
-          <painFactor>0.85</painFactor>
-		  <statOffsets>
-		    <ComfyTemperatureMin>-8</ComfyTemperatureMin>
-			<SocialImpact>0.2</SocialImpact>
-		  </statOffsets>
-        </li>
-      </stages>
+    <stages>
+      <li>
+        <label>warmed-hidden</label>
+      </li>
+      <li>
+        <minSeverity>0.2</minSeverity>
+        <label>warmed</label>
+        <statOffsets>
+          <ComfyTemperatureMin>-6</ComfyTemperatureMin>
+          <SocialImpact>0.1</SocialImpact>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.75</minSeverity>
+        <label>cozy</label>
+        <painFactor>0.85</painFactor>
+        <statOffsets>
+          <ComfyTemperatureMin>-8</ComfyTemperatureMin>
+          <SocialImpact>0.2</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
-  
   <ThoughtDef>
     <defName>HearthBrewHappy</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
@@ -124,8 +116,7 @@
         <label>warm feeling</label>
         <description>That brew really made me feel warm and cozy.</description>
         <baseMoodEffect>4</baseMoodEffect>
-	  </li>
+      </li>
     </stages>
   </ThoughtDef>
-
 </Defs>

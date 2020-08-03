@@ -1,8 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!-- torso for animals -->
-
   <BodyPartDef>
     <defName>SlimeBody</defName>
     <label>body</label>
@@ -11,18 +9,17 @@
     <skinCovered>true</skinCovered>
     <tags>
       <li>MovingLimbCore</li>
-	  <li>HearingSource</li>
-	  <li>EatingSource</li>
+      <li>HearingSource</li>
+      <li>EatingSource</li>
       <li>TalkingSource</li>
       <li>ManipulationLimbCore</li>
-	  <li>ConsciousnessSource</li>
-	  <li>SightSource</li>
-	  <li>BreathingPathway</li>
+      <li>ConsciousnessSource</li>
+      <li>SightSource</li>
+      <li>BreathingPathway</li>
       <li>EatingPathway</li>
       <li>TalkingPathway</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>SlimeHeart</defName>
     <label>heart</label>
@@ -38,5 +35,4 @@
       <li>BreathingSource</li>
     </tags>
   </BodyPartDef>
-
 </Defs>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <OracaliumHigh.stages.0.label>high on oracalium</OracaliumHigh.stages.0.label>
+  <OracaliumHigh.stages.0.description>My mind feels open and clear! I am focused!</OracaliumHigh.stages.0.description>
+
+
+  <!-- addiction -->
+
+  <OracaliumWithdrawal.stages.1.label>oracalium withdrawal</OracaliumWithdrawal.stages.1.label>
+  <OracaliumWithdrawal.stages.1.description>I just can't think straight.</OracaliumWithdrawal.stages.1.description>
+
+
+</LanguageData>

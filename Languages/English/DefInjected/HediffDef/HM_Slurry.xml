@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- mutations -->
+
+  <SlurryWithering.label>mutation: withering</SlurryWithering.label>
+  <SlurryWithering.description>mutation: withering</SlurryWithering.description>
+
+  <SlurrySlimy.label>mutation: slimy skin</SlurrySlimy.label>
+  <SlurrySlimy.description>mutation: slimy skin</SlurrySlimy.description>
+
+  <SlurryWired.label>mutation: wired</SlurryWired.label>
+  <SlurryWired.description>mutation: wired</SlurryWired.description>
+
+  <SlurryEyes.label>mutation: lizard eyes</SlurryEyes.label>
+  <SlurryEyes.description>mutation: lizard eyes</SlurryEyes.description>
+
+  <SlurryStrong.label>mutation: strong</SlurryStrong.label>
+  <SlurryStrong.description>mutation: strong</SlurryStrong.description>
+
+  <SlurryAgile.label>mutation: agile</SlurryAgile.label>
+  <SlurryAgile.description>mutation: agile</SlurryAgile.description>
+
+  <SlurryStagnant.label>mutation: stagnant</SlurryStagnant.label>
+  <SlurryStagnant.description>mutation: stagnant</SlurryStagnant.description>
+
+  <SlurrySooth.label>mutation: soothing aura</SlurrySooth.label>
+  <SlurrySooth.description>mutation: soothing aura</SlurrySooth.description>
+
+
+  <!-- Mutation Phase -->
+
+  <SlurryHigh.label>mutagenic reaction (slurry)</SlurryHigh.label>
+  <SlurryHigh.description>mutagenic reaction (slurry)</SlurryHigh.description>
+  <SlurryHigh.stages.0.label>receding</SlurryHigh.stages.0.label>
+  <SlurryHigh.stages.1.label>active</SlurryHigh.stages.1.label>
+  <SlurryHigh.stages.2.label>initial</SlurryHigh.stages.2.label>
+
+
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AmbrosiaTea.label>Ambrosian iced tea</AmbrosiaTea.label>
+  <AmbrosiaTea.description>A delightful beverage made by steeping ambrosia in boiling water and cooling it down. The resulting tea calms the nerves and offers minor health benefits, but is not addictive. However, those with an addiction to ambrosia won't feel satisfied with this.</AmbrosiaTea.description>
+  <AmbrosiaTea.ingestible.ingestCommandString>Drink {0}</AmbrosiaTea.ingestible.ingestCommandString>
+  <AmbrosiaTea.ingestible.ingestReportString>Drinking {0}.</AmbrosiaTea.ingestible.ingestReportString>
+
+
+</LanguageData>

@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <RecipeDef Name="MakeAmbrosiaIcedTea">
     <defName>MakeAmbrosiaIcedTea</defName>
     <label>make ambrosia iced tea</label>
@@ -11,10 +10,10 @@
     <requiredGiverWorkType>Cooking</requiredGiverWorkType>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_CookMeal</soundWorking>
-	<recipeUsers>
-		<li>ElectricStove</li>
-		<li>FueledStove</li>
-	</recipeUsers>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -25,7 +24,7 @@
         <count>2</count>
       </li>
     </ingredients>
-	<fixedIngredientFilter>
+    <fixedIngredientFilter>
       <thingDefs>
         <li>Ambrosia</li>
       </thingDefs>
@@ -35,7 +34,6 @@
     </products>
     <workSkill>Cooking</workSkill>
   </RecipeDef>
-  
   <RecipeDef Name="MakeHearthBrew">
     <defName>MakeHearthBrew</defName>
     <label>make hearth brew</label>
@@ -46,10 +44,10 @@
     <requiredGiverWorkType>Cooking</requiredGiverWorkType>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_CookMeal</soundWorking>
-	<recipeUsers>
-		<li>ElectricStove</li>
-		<li>FueledStove</li>
-	</recipeUsers>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -60,7 +58,7 @@
         <count>10</count>
       </li>
     </ingredients>
-	<fixedIngredientFilter>
+    <fixedIngredientFilter>
       <thingDefs>
         <li>RawBerries</li>
       </thingDefs>
@@ -70,5 +68,4 @@
     </products>
     <workSkill>Cooking</workSkill>
   </RecipeDef>
-
 </Defs>

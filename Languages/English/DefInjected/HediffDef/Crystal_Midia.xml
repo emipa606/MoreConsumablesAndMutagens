@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- mutations -->
+
+  <MidiaSmart.label>mutation: intelligent</MidiaSmart.label>
+  <MidiaSmart.description>mutation: intelligent</MidiaSmart.description>
+
+  <MidiaForget.label>mutation: forgetful</MidiaForget.label>
+  <MidiaForget.description>mutation: forgetful</MidiaForget.description>
+
+  <MidiaBlur.label>mutation: blurred</MidiaBlur.label>
+  <MidiaBlur.description>mutation: blurred</MidiaBlur.description>
+
+  <MidiaRough.label>mutation: rough voice</MidiaRough.label>
+  <MidiaRough.description>mutation: rough voice</MidiaRough.description>
+
+  <MidiaKeen.label>mutation: keen</MidiaKeen.label>
+  <MidiaKeen.description>mutation: keen</MidiaKeen.description>
+
+  <MidiaAbsent.label>mutation: absent</MidiaAbsent.label>
+  <MidiaAbsent.description>mutation: absent</MidiaAbsent.description>
+
+
+  <!-- Mutation phase -->
+
+  <MidiaHigh.label>mutagenic reaction (midia)</MidiaHigh.label>
+  <MidiaHigh.description>mutagenic reaction (midia)</MidiaHigh.description>
+  <MidiaHigh.stages.0.label>receding</MidiaHigh.stages.0.label>
+  <MidiaHigh.stages.1.label>active</MidiaHigh.stages.1.label>
+  <MidiaHigh.stages.2.label>initial</MidiaHigh.stages.2.label>
+
+
+</LanguageData>

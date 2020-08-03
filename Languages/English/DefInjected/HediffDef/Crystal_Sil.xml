@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- mutations -->
+
+  <SilFlowers.label>mutation: flowers</SilFlowers.label>
+  <SilFlowers.description>mutation: flowers</SilFlowers.description>
+
+  <SilStomach.label>mutation: corrosive acids</SilStomach.label>
+  <SilStomach.description>mutation: corrosive acids</SilStomach.description>
+
+  <SilBlood.label>mutation: viperous blood</SilBlood.label>
+  <SilBlood.description>mutation: viperous blood</SilBlood.description>
+
+  <SilSkin.label>mutation: phelloderm</SilSkin.label>
+  <SilSkin.description>mutation: phelloderm</SilSkin.description>
+
+  <SilEyes.label>mutation: fey eyes</SilEyes.label>
+  <SilEyes.description>mutation: fey eyes</SilEyes.description>
+
+  <SilDegraded.label>mutation: degraded</SilDegraded.label>
+  <SilDegraded.description>mutation: degraded</SilDegraded.description>
+
+  <SilCalm.label>mutation: calm</SilCalm.label>
+  <SilCalm.description>mutation: calm</SilCalm.description>
+
+
+  <!-- Mutation phase -->
+
+  <SilHigh.label>mutagenic reaction (sil)</SilHigh.label>
+  <SilHigh.description>mutagenic reaction (sil)</SilHigh.description>
+  <SilHigh.stages.0.label>receding</SilHigh.stages.0.label>
+  <SilHigh.stages.1.label>active</SilHigh.stages.1.label>
+  <SilHigh.stages.2.label>initial</SilHigh.stages.2.label>
+
+
+</LanguageData>

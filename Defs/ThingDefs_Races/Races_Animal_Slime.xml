@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="BasePawn" Name="SlimeThingBase" Abstract="True">
     <statBases>
       <Flammability>1.0</Flammability>
@@ -17,13 +16,12 @@
       <nameOnNuzzleChance>0.5</nameOnNuzzleChance>
     </race>
     <recipes>
-	  <li>ExciseCarcinoma</li>
+      <li>ExciseCarcinoma</li>
       <li>RemoveBodyPart</li>
       <li>Euthanize</li>
       <li>Anesthetize</li>
     </recipes>
   </ThingDef>
-
   <ThingDef ParentName="SlimeThingBase">
     <defName>CMSlime</defName>
     <label>slime</label>
@@ -32,14 +30,14 @@
       <MoveSpeed>1.76</MoveSpeed>
       <ComfyTemperatureMin>-65</ComfyTemperatureMin>
       <MarketValue>400</MarketValue>
-	  <MeatAmount>0</MeatAmount>
-	  <LeatherAmount>0</LeatherAmount>
-	  <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
-	  <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
-	  <ToxicSensitivity>0</ToxicSensitivity>
-	  <EatingSpeed>5</EatingSpeed>
-	  <MeleeDodgeChance>1.2</MeleeDodgeChance>
-	  <ImmunityGainSpeed>5</ImmunityGainSpeed>
+      <MeatAmount>0</MeatAmount>
+      <LeatherAmount>0</LeatherAmount>
+      <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <ToxicSensitivity>0</ToxicSensitivity>
+      <EatingSpeed>5</EatingSpeed>
+      <MeleeDodgeChance>1.2</MeleeDodgeChance>
+      <ImmunityGainSpeed>5</ImmunityGainSpeed>
     </statBases>
     <tools>
       <li>
@@ -62,13 +60,13 @@
     </tools>
     <comps>
       <li Class="CompProperties_EggLayer">
-	    <eggUnfertilizedDef>EggSlimeUnfertilized</eggUnfertilizedDef>
+        <eggUnfertilizedDef>EggSlimeUnfertilized</eggUnfertilizedDef>
         <eggFertilizedDef>EggSlimeFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>13.0</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
-	  <li Class="CompProperties_Milkable">
+      <li Class="CompProperties_Milkable">
         <milkDef>SlimeGel</milkDef>
         <milkIntervalDays>5</milkIntervalDays>
         <milkAmount>5</milkAmount>
@@ -80,7 +78,7 @@
       <baseBodySize>3.5</baseBodySize>
       <baseHungerRate>6.3</baseHungerRate>
       <baseHealthScale>10</baseHealthScale>
-	  <needsRest>false</needsRest>
+      <needsRest>false</needsRest>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <useMeatFrom>Megaspider</useMeatFrom>
       <trainability>Intermediate</trainability>
@@ -119,15 +117,14 @@
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-	  <hediffGiverSets>
+      <hediffGiverSets>
         <li>Slime</li>
       </hediffGiverSets>
     </race>
-	<butcherProducts>
-	  <SlimeGlob>60</SlimeGlob>
+    <butcherProducts>
+      <SlimeGlob>60</SlimeGlob>
     </butcherProducts>
   </ThingDef>
-
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>CMSlime</defName>
     <label>slime</label>
@@ -166,5 +163,4 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
 </Defs>

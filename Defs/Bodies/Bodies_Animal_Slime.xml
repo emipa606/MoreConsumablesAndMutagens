@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <BodyDef>
     <defName>CMSlime</defName>
     <label>slime</label>
@@ -8,8 +7,8 @@
       <def>SlimeBody</def>
       <height>Middle</height>
       <depth>Outside</depth>
-	  <groups>
-            <li>HeadAttackTool</li>
+      <groups>
+        <li>HeadAttackTool</li>
       </groups>
       <parts>
         <li>
@@ -25,5 +24,4 @@
       </parts>
     </corePart>
   </BodyDef>
-
 </Defs>

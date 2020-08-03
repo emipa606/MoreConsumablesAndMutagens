@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="CrystalDrugBase">
     <defName>Ichorio</defName>
     <label>ichorio</label>
@@ -9,12 +8,12 @@
       <texPath>Things/Ichorio</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-	<equippedAngleOffset>-150</equippedAngleOffset>
+    <equippedAngleOffset>-150</equippedAngleOffset>
     <rotatable>false</rotatable>
     <statBases>
       <WorkToMake>500</WorkToMake>
       <MarketValue>5500</MarketValue>
-	  <Nutrition>0.08</Nutrition>
+      <Nutrition>0.08</Nutrition>
     </statBases>
     <techLevel>Spacer</techLevel>
     <ingestible>
@@ -23,7 +22,7 @@
       <drugCategory>Medical</drugCategory>
       <baseIngestTicks>240</baseIngestTicks>
       <ingestSound>Ingest_Beer</ingestSound>
-	  <ingestHoldOffsetStanding>
+      <ingestHoldOffsetStanding>
         <northDefault>
           <offset>(0.18,0,0)</offset>
         </northDefault>
@@ -43,11 +42,10 @@
         <chemical>Ichorio</chemical>
         <needLevelOffset>1</needLevelOffset>
         <listOrder>2000</listOrder>
-		<addictiveness>0</addictiveness>
+        <addictiveness>0</addictiveness>
       </li>
     </comps>
   </ThingDef>
-
   <HediffDef>
     <defName>IchorioHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
@@ -63,9 +61,9 @@
       <li>
         <minSeverity>0.25</minSeverity>
         <label>class: 1</label>
-		<painFactor>1.1</painFactor>
+        <painFactor>1.1</painFactor>
         <capMods>
-		  <li>
+          <li>
             <capacity>Manipulation</capacity>
             <offset>0.05</offset>
           </li>
@@ -73,7 +71,7 @@
             <capacity>Sight</capacity>
             <offset>0.05</offset>
           </li>
-		  <li>
+          <li>
             <capacity>Moving</capacity>
             <offset>0.05</offset>
           </li>
@@ -82,9 +80,9 @@
       <li>
         <minSeverity>0.50</minSeverity>
         <label>class: 2</label>
-		<painFactor>1.2</painFactor>
+        <painFactor>1.2</painFactor>
         <capMods>
-		  <li>
+          <li>
             <capacity>Manipulation</capacity>
             <offset>0.1</offset>
           </li>
@@ -92,7 +90,7 @@
             <capacity>Sight</capacity>
             <offset>0.1</offset>
           </li>
-		  <li>
+          <li>
             <capacity>Moving</capacity>
             <offset>0.1</offset>
           </li>
@@ -101,9 +99,9 @@
       <li>
         <minSeverity>0.75</minSeverity>
         <label>class: 3</label>
-		<painFactor>1.3</painFactor>
+        <painFactor>1.3</painFactor>
         <capMods>
-		  <li>
+          <li>
             <capacity>Manipulation</capacity>
             <offset>0.15</offset>
           </li>
@@ -111,7 +109,7 @@
             <capacity>Sight</capacity>
             <offset>0.15</offset>
           </li>
-		  <li>
+          <li>
             <capacity>Moving</capacity>
             <offset>0.15</offset>
           </li>
@@ -120,9 +118,9 @@
       <li>
         <minSeverity>1</minSeverity>
         <label>class: 4</label>
-		<painFactor>1.4</painFactor>
+        <painFactor>1.4</painFactor>
         <capMods>
-		  <li>
+          <li>
             <capacity>Manipulation</capacity>
             <offset>0.20</offset>
           </li>
@@ -130,7 +128,7 @@
             <capacity>Sight</capacity>
             <offset>0.20</offset>
           </li>
-		  <li>
+          <li>
             <capacity>Moving</capacity>
             <offset>0.20</offset>
           </li>
@@ -138,14 +136,11 @@
       </li>
     </stages>
   </HediffDef>
-  
   <!-- (lack of) addiction -->
-  
   <ChemicalDef>
     <defName>Ichorio</defName>
     <label>ichorio</label>
-	<canBinge>false</canBinge>
+    <canBinge>false</canBinge>
     <addictionHediff>AlcoholAddiction</addictionHediff>
   </ChemicalDef>
-  
 </Defs>

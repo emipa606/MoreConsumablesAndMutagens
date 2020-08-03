@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Oracalium.label>oracalium</Oracalium.label>
+  <Oracalium.description>A potent collection of dried and powdered herbs that is named for its use by Oracles in tribal societies. Supposedly has properties that help with divination. Low chance for it to be addictive. Repeated usage never loses it's spark.</Oracalium.description>
+  <Oracalium.ingestible.ingestCommandString>Snort {0}</Oracalium.ingestible.ingestCommandString>
+  <Oracalium.ingestible.ingestReportString>Snorting {0}.</Oracalium.ingestible.ingestReportString>
+
+
+</LanguageData>

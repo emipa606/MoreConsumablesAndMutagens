@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="CrystalDrugPillBase">
     <defName>Igni</defName>
     <label>igni</label>
@@ -26,15 +25,13 @@
     </ingestible>
     <comps>
       <li Class="CompProperties_Drug">
-		<addictiveness>0</addictiveness>
+        <addictiveness>0</addictiveness>
         <needLevelOffset>1</needLevelOffset>
         <listOrder>1950</listOrder>
       </li>
     </comps>
   </ThingDef>
-  
   <!-- mutations -->
-  
   <HediffDef ParentName="CrystalDrugMutationBase">
     <defName>IgniSpeed</defName>
     <label>mutation: speed</label>
@@ -42,146 +39,137 @@
     <stages>
       <li>
         <statOffsets>
-		  <MoveSpeed>0.24</MoveSpeed>
+          <MoveSpeed>0.24</MoveSpeed>
         </statOffsets>
-		<makeImmuneTo>
+        <makeImmuneTo>
           <li>UrsaSlow</li>
         </makeImmuneTo>
       </li>
     </stages>
   </HediffDef>
-  
   <HediffDef ParentName="CrystalDrugMutationBase">
     <defName>IgniRage</defName>
     <label>mutation: rage</label>
     <description>mutation: rage</description>
     <stages>
       <li>
-	    <painFactor>0.85</painFactor>
-		<socialFightChanceFactor>1.75</socialFightChanceFactor>
-		<statOffsets>
-		  <MentalBreakThreshold>0.04</MentalBreakThreshold>
+        <painFactor>0.85</painFactor>
+        <socialFightChanceFactor>1.75</socialFightChanceFactor>
+        <statOffsets>
+          <MentalBreakThreshold>0.04</MentalBreakThreshold>
         </statOffsets>
-		<makeImmuneTo>
+        <makeImmuneTo>
           <li>SilCalm</li>
         </makeImmuneTo>
       </li>
     </stages>
   </HediffDef>
-  
   <HediffDef ParentName="CrystalDrugMutationBase">
     <defName>IgniWarm</defName>
     <label>mutation: warm</label>
     <description>mutation: warm</description>
     <stages>
       <li>
-	    <statOffsets>
-		  <ComfyTemperatureMin>-5</ComfyTemperatureMin>
-		  <ComfyTemperatureMax>-2</ComfyTemperatureMax>
+        <statOffsets>
+          <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+          <ComfyTemperatureMax>-2</ComfyTemperatureMax>
         </statOffsets>
       </li>
     </stages>
   </HediffDef>
-  
   <HediffDef ParentName="CrystalDrugMutationBase">
     <defName>IgniFurnace</defName>
     <label>mutation: furnace</label>
     <description>mutation: furnace</description>
     <stages>
       <li>
-	    <restFallFactor>0.8</restFallFactor>
+        <restFallFactor>0.8</restFallFactor>
         <hungerRateFactor>1.3</hungerRateFactor>
-		<statOffsets>
-		  <ComfyTemperatureMin>-8</ComfyTemperatureMin>
+        <statOffsets>
+          <ComfyTemperatureMin>-8</ComfyTemperatureMin>
         </statOffsets>
-		<capMods>
-            <li>
-               <capacity>Eating</capacity>
-               <offset>0.5</offset>
-            </li>
-         </capMods>
+        <capMods>
+          <li>
+            <capacity>Eating</capacity>
+            <offset>0.5</offset>
+          </li>
+        </capMods>
       </li>
     </stages>
   </HediffDef>
-  
   <HediffDef ParentName="CrystalDrugMutationPartBase">
-      <defName>IgniArm</defName>
-      <label>mutation: plated arm</label>
-      <description>mutation: plated arm</description>
-      <addedPartProps>
-         <partEfficiency>1.0</partEfficiency>
-         <solid>true</solid>
-      </addedPartProps>
-      <stages>
-		<li>
-		  <statOffsets>
-		    <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
-          </statOffsets>
-          <capMods>
-            <li>
-               <capacity>Manipulation</capacity>
-               <offset>-0.2</offset>
-            </li>
-         </capMods>
-		</li>	 
-      </stages>
-	  <comps>
-        <li Class="HediffCompProperties_VerbGiver">
-            <verbs>
-               <li>
-                  <verbClass>Verb_MeleeAttack</verbClass>
-                  <defaultCooldownTime>90</defaultCooldownTime>
-                  <meleeDamageBaseAmount>12</meleeDamageBaseAmount>
-                  <meleeDamageDef>Blunt</meleeDamageDef>
-               </li>
-            </verbs>
-         </li>
-      </comps>
-   </HediffDef>
-   
-   <HediffDef ParentName="CrystalDrugMutationPartBase">
-      <defName>IgniCore</defName>
-      <label>mutation: core heart</label>
-      <description>mutation: core heart</description>
-      <addedPartProps>
-         <partEfficiency>1.5</partEfficiency>
-         <solid>true</solid>
-      </addedPartProps>
-      <stages>
-		<li>
-         <capMods>
-            <li>
-               <capacity>Moving</capacity>
-               <offset>0.1</offset>
-            </li>
-         </capMods>
-		</li>	 
-      </stages>
-   </HediffDef>
-   
-   <HediffDef ParentName="CrystalDrugMutationBase">
+    <defName>IgniArm</defName>
+    <label>mutation: plated arm</label>
+    <description>mutation: plated arm</description>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+      <solid>true</solid>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>90</defaultCooldownTime>
+            <meleeDamageBaseAmount>12</meleeDamageBaseAmount>
+            <meleeDamageDef>Blunt</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="CrystalDrugMutationPartBase">
+    <defName>IgniCore</defName>
+    <label>mutation: core heart</label>
+    <description>mutation: core heart</description>
+    <addedPartProps>
+      <partEfficiency>1.5</partEfficiency>
+      <solid>true</solid>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.1</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="CrystalDrugMutationBase">
     <defName>IgniStrongBack</defName>
     <label>mutation: strong back</label>
     <description>mutation: strong back</description>
     <stages>
       <li>
-	    <statOffsets>
-		  <CarryingCapacity>25</CarryingCapacity>
+        <statOffsets>
+          <CarryingCapacity>25</CarryingCapacity>
         </statOffsets>
-		<capMods>
-            <li>
-               <capacity>Moving</capacity>
-               <offset>0.1</offset>
-            </li>
-         </capMods>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.1</offset>
+          </li>
+        </capMods>
       </li>
     </stages>
   </HediffDef>
-  
-
   <!-- Mutation Phase -->
-  
   <HediffDef>
     <defName>IgniHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
@@ -195,126 +183,125 @@
         <severityPerDay>-0.30</severityPerDay>
       </li>
     </comps>
-      <stages>
-	    <li>
-		  <label>receding</label>
-          <minSeverity>0</minSeverity>
-          <capMods>
-            <li>
-              <capacity>Consciousness</capacity>
-              <offset>-0.05</offset>
-            </li>
-			<li>
-              <capacity>Moving</capacity>
-              <offset>-0.05</offset>
-            </li>
-          </capMods>
-		</li>
-        <li>
-		  <label>active</label>
-		  <minSeverity>0.35</minSeverity>
-          <painFactor>1.6</painFactor>
-		  <hungerRateFactor>1.6</hungerRateFactor>
-		  <vomitMtbDays>3</vomitMtbDays>
-          <capMods>
-            <li>
-              <capacity>Consciousness</capacity>
-              <offset>-0.35</offset>
-            </li>
-            <li>
-              <capacity>Moving</capacity>
-              <offset>-0.30</offset>
-            </li>
-			<li>
-              <capacity>Sight</capacity>
-              <offset>-0.20</offset>
-            </li>
-			<li>
-              <capacity>Manipulation</capacity>
-              <offset>-0.40</offset>
-            </li>
-          </capMods>
-		  <hediffGivers>
-            <li Class="HediffGiver_Random">
-              <hediff>IgniSpeed</hediff>
-              <mtbDays>5</mtbDays>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>IgniArm</hediff>
-              <mtbDays>6</mtbDays>
-			  <partsToAffect>
-                <li>Arm</li>
-              </partsToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>IgniRage</hediff>
-              <mtbDays>7</mtbDays>
-			  <partsToAffect>
-                <li>Brain</li>
-              </partsToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>IgniWarm</hediff>
-              <mtbDays>7</mtbDays>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>IgniCore</hediff>
-              <mtbDays>8</mtbDays>
-			  <partsToAffect>
-                <li>Heart</li>
-              </partsToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>Asthma</hediff>
-              <mtbDays>13</mtbDays>
-			  <partsToAffect>
-                <li>Lung</li>
-              </partsToAffect>
-			  <countToAffect>2</countToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>IgniFurnace</hediff>
-              <mtbDays>9</mtbDays>
-			  <partsToAffect>
-                <li>Stomach</li>
-              </partsToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>IgniStrongBack</hediff>
-              <mtbDays>9</mtbDays>
-			  <partsToAffect>
-                <li>Spine</li>
-              </partsToAffect>
-            </li>
-			<li Class="HediffGiver_Random">
-              <hediff>SlurryStrong</hediff>
-              <mtbDays>12</mtbDays>
-			  <partsToAffect>
-                <li>Arm</li>
-              </partsToAffect>
-			  <countToAffect>2</countToAffect>
-            </li>
-          </hediffGivers>
-        </li>
-		<li>
-		  <label>initial</label>
-          <minSeverity>0.85</minSeverity>
-          <capMods>
-            <li>
-              <capacity>Consciousness</capacity>
-              <offset>-0.05</offset>
-            </li>
-          </capMods>
-		</li>
-      </stages>
+    <stages>
+      <li>
+        <label>receding</label>
+        <minSeverity>0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.05</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>active</label>
+        <minSeverity>0.35</minSeverity>
+        <painFactor>1.6</painFactor>
+        <hungerRateFactor>1.6</hungerRateFactor>
+        <vomitMtbDays>3</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.35</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.30</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.40</offset>
+          </li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>IgniSpeed</hediff>
+            <mtbDays>5</mtbDays>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>IgniArm</hediff>
+            <mtbDays>6</mtbDays>
+            <partsToAffect>
+              <li>Arm</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>IgniRage</hediff>
+            <mtbDays>7</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>IgniWarm</hediff>
+            <mtbDays>7</mtbDays>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>IgniCore</hediff>
+            <mtbDays>8</mtbDays>
+            <partsToAffect>
+              <li>Heart</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>Asthma</hediff>
+            <mtbDays>13</mtbDays>
+            <partsToAffect>
+              <li>Lung</li>
+            </partsToAffect>
+            <countToAffect>2</countToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>IgniFurnace</hediff>
+            <mtbDays>9</mtbDays>
+            <partsToAffect>
+              <li>Stomach</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>IgniStrongBack</hediff>
+            <mtbDays>9</mtbDays>
+            <partsToAffect>
+              <li>Spine</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>SlurryStrong</hediff>
+            <mtbDays>12</mtbDays>
+            <partsToAffect>
+              <li>Arm</li>
+            </partsToAffect>
+            <countToAffect>2</countToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+      <li>
+        <label>initial</label>
+        <minSeverity>0.85</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
   </HediffDef>
-  
   <ThoughtDef>
     <defName>IgniReaction</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>IgniHigh</hediff>
     <stages>
-	  <li>
+      <li>
         <label>mutagenic reaction (igni)</label>
         <description>My body doesn't feel right.</description>
         <baseMoodEffect>-6</baseMoodEffect>
@@ -324,12 +311,11 @@
         <description>My insides feel like they are on fire!</description>
         <baseMoodEffect>-25</baseMoodEffect>
       </li>
-	  <li>
+      <li>
         <label>mutagenic reaction (igni)</label>
         <description>I am really uneasy.</description>
         <baseMoodEffect>-5</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
-  
 </Defs>

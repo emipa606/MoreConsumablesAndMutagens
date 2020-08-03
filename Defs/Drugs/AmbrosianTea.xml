@@ -1,29 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="NDrugBase">
     <defName>AmbrosiaTea</defName>
     <label>Ambrosian iced tea</label>
     <description>A delightful beverage made by steeping ambrosia in boiling water and cooling it down. The resulting tea calms the nerves and offers minor health benefits, but is not addictive. However, those with an addiction to ambrosia won't feel satisfied with this.</description>
-	
-	<graphicData>
+    <graphicData>
       <texPath>Things/AmbrosiaTea</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-	
     <rotatable>false</rotatable>
     <stackLimit>25</stackLimit>
-	<tickerType>Rare</tickerType>
-	<techLevel>Industrial</techLevel>
-	<socialPropernessMatters>true</socialPropernessMatters>
-	
+    <tickerType>Rare</tickerType>
+    <techLevel>Industrial</techLevel>
+    <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
       <DeteriorationRate>0.6</DeteriorationRate>
       <MarketValue>15</MarketValue>
       <Mass>0.3</Mass>
       <Nutrition>0.13</Nutrition>
     </statBases>
-	
     <ingestible>
       <foodType>Fluid, Processed</foodType>
       <joy>0.35</joy>
@@ -46,7 +41,6 @@
         </li>
       </outcomeDoers>
     </ingestible>
-	
     <comps>
       <li Class="CompProperties_Drug">
         <chemical>AmbrosiaTea</chemical>
@@ -56,13 +50,12 @@
         <needLevelOffset>1</needLevelOffset>
         <listOrder>10</listOrder>
       </li>
-	  <li Class="CompProperties_Rottable">
+      <li Class="CompProperties_Rottable">
         <daysToRotStart>4</daysToRotStart>
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
   </ThingDef>
-  
   <HediffDef>
     <defName>ATeaHigh</defName>
     <hediffClass>Hediff_Alcohol</hediffClass>
@@ -75,41 +68,40 @@
         <severityPerDay>-1.1</severityPerDay>
       </li>
     </comps>
-      <stages>
-        <li>
-          <label>buzzed-hidden</label>
-        </li>
-        <li>
-          <minSeverity>0.1</minSeverity>
-          <label>slight effect</label>
-          <painFactor>0.9</painFactor>
-		  <statOffsets>
-		    <MentalBreakThreshold>-0.02</MentalBreakThreshold>
-		  </statOffsets>
-            <capMods>
-              <li>
-                <capacity>BloodFiltration</capacity>
-                <offset>0.05</offset>
-              </li>
-            </capMods>
-        </li>
-        <li>
-          <minSeverity>0.5</minSeverity>
-          <label>max effect</label>
-          <painFactor>0.85</painFactor>
-		  <statOffsets>
-		    <MentalBreakThreshold>-0.03</MentalBreakThreshold>
-		  </statOffsets>
-            <capMods>
-              <li>
-                <capacity>BloodFiltration</capacity>
-                <offset>0.075</offset>
-              </li>
-            </capMods>
-        </li>
-      </stages>
+    <stages>
+      <li>
+        <label>buzzed-hidden</label>
+      </li>
+      <li>
+        <minSeverity>0.1</minSeverity>
+        <label>slight effect</label>
+        <painFactor>0.9</painFactor>
+        <statOffsets>
+          <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.5</minSeverity>
+        <label>max effect</label>
+        <painFactor>0.85</painFactor>
+        <statOffsets>
+          <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.075</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
   </HediffDef>
-  
   <ThoughtDef>
     <defName>AmbrosiaTeaHappy</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
@@ -126,12 +118,10 @@
         <label>Ambrosia iced tea</label>
         <description>That was satisfying.</description>
         <baseMoodEffect>3</baseMoodEffect>
-	  </li>
+      </li>
     </stages>
   </ThoughtDef>
-  
   <!-- Alcohol addiction -->
-  
   <ChemicalDef>
     <defName>AmbrosiaTea</defName>
     <label>Ambrosia tea</label>
@@ -139,7 +129,6 @@
     <toleranceHediff>AmbrosiaTeaTolerance</toleranceHediff>
     <onGeneratedAddictedToleranceChance>0</onGeneratedAddictedToleranceChance>
   </ChemicalDef>
-  
   <NeedDef ParentName="DrugAddictionNeedBase">
     <defName>Chemical_AmbrosiaTea</defName>
     <needClass>Need_Chemical</needClass>
@@ -147,7 +136,6 @@
     <description>Because of an ambrosia tea addiction, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
     <listPriority>35</listPriority>
   </NeedDef>
-
   <HediffDef ParentName="DrugToleranceBase">
     <defName>AmbrosiaTeaTolerance</defName>
     <label>alcohol tolerance</label>
@@ -161,7 +149,6 @@
       </li>
     </comps>
   </HediffDef>
-
   <HediffDef ParentName="NAddictionBase">
     <defName>AmbrosiaTeaAddiction</defName>
     <hediffClass>Hediff_Addiction</hediffClass>
@@ -181,7 +168,6 @@
       </li>
     </stages>
   </HediffDef>
-
   <ThoughtDef>
     <defName>AmbrosiaTeaWithdrawal</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
@@ -198,5 +184,4 @@
       </li>
     </stages>
   </ThoughtDef>
-
 </Defs>

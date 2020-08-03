@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef Name="NDrugBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
@@ -10,7 +9,7 @@
       <MaxHitPoints>50</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>2</DeteriorationRate>
-			<Beauty>-4</Beauty>
+      <Beauty>-4</Beauty>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <stackLimit>400</stackLimit>
@@ -33,7 +32,6 @@
     </ingestible>
     <storedConceptLearnOpportunity>DrugPolicies</storedConceptLearnOpportunity>
   </ThingDef>
-  
   <ThingDef Name="NMakeableDrugBase" ParentName="NDrugBase" Abstract="True">
     <recipeMaker>
       <workSpeedStat>DrugCookingSpeed</workSpeedStat>
@@ -42,7 +40,6 @@
       <soundWorking>Recipe_CookMeal</soundWorking>
     </recipeMaker>
   </ThingDef>
-
   <ThingDef Name="NMakeableDrugPillBase" ParentName="NMakeableDrugBase" Abstract="True">
     <ingestible>
       <foodType>Processed</foodType>
@@ -55,7 +52,6 @@
     </ingestible>
     <socialPropernessMatters>true</socialPropernessMatters>
   </ThingDef>
-
   <ThingDef Name="NDrugPillBase" ParentName="NDrugBase" Abstract="True">
     <ingestible>
       <foodType>Processed</foodType>
@@ -68,14 +64,12 @@
     </ingestible>
     <socialPropernessMatters>true</socialPropernessMatters>
   </ThingDef>
-  
   <HediffDef Name="NAddictionBase" Abstract="True">
     <defaultLabelColor>(255,0,127)</defaultLabelColor>
     <initialSeverity>0.5</initialSeverity>
     <maxSeverity>1.0</maxSeverity>
     <scenarioCanAdd>true</scenarioCanAdd>
   </HediffDef>
-
   <HediffDef Name="NDrugToleranceBase" Abstract="True">
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(179,86,132)</defaultLabelColor>
@@ -98,12 +92,10 @@
         <label>massive</label>
       </li>
     </stages>
-  </HediffDef> 
-  
+  </HediffDef>
   <NeedDef Name="NDrugAddictionNeedBase" Abstract="True">
     <onlyIfCausedByHediff>true</onlyIfCausedByHediff>
     <tutorHighlightTag>NeedAddiction</tutorHighlightTag>
     <showForCaravanMembers>true</showForCaravanMembers>
   </NeedDef>
-  
 </Defs>

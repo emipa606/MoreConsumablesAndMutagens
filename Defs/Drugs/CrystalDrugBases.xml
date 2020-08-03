@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef Name="CrystalDrugBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
@@ -34,7 +33,6 @@
     </ingestible>
     <storedConceptLearnOpportunity>DrugPolicies</storedConceptLearnOpportunity>
   </ThingDef>
-  
   <ThingDef Name="MakeableCrystalDrugBase" ParentName="CrystalDrugBase" Abstract="True">
     <recipeMaker>
       <workSpeedStat>DrugCookingSpeed</workSpeedStat>
@@ -43,7 +41,6 @@
       <soundWorking>Recipe_CookMeal</soundWorking>
     </recipeMaker>
   </ThingDef>
-
   <ThingDef Name="MakeableCrystalDrugPillBase" ParentName="MakeableCrystalDrugBase" Abstract="True">
     <ingestible>
       <foodType>Processed</foodType>
@@ -55,7 +52,6 @@
       <ingestReportString>Taking {0}.</ingestReportString>
     </ingestible>
   </ThingDef>
-
   <ThingDef Name="CrystalDrugPillBase" ParentName="CrystalDrugBase" Abstract="True">
     <ingestible>
       <foodType>Processed</foodType>
@@ -67,14 +63,12 @@
       <ingestReportString>Taking {0}.</ingestReportString>
     </ingestible>
   </ThingDef>
-  
   <HediffDef Name="CrystalAddictionBase" Abstract="True">
     <defaultLabelColor>(255,0,127)</defaultLabelColor>
     <initialSeverity>0.5</initialSeverity>
     <maxSeverity>1.0</maxSeverity>
     <scenarioCanAdd>true</scenarioCanAdd>
   </HediffDef>
-  
   <HediffDef Name="CrystalDrugToleranceBase" Abstract="True">
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(179,86,132)</defaultLabelColor>
@@ -97,41 +91,38 @@
         <label>massive</label>
       </li>
     </stages>
-  </HediffDef> 
-  
+  </HediffDef>
   <HediffDef Name="CrystalDrugLongTermBase" Abstract="True">
     <hediffClass>HediffWithComps</hediffClass>
-	<isBad>false</isBad>
+    <isBad>false</isBad>
     <defaultLabelColor>(179,144,212)</defaultLabelColor>
     <maxSeverity>1.0</maxSeverity>
     <scenarioCanAdd>true</scenarioCanAdd>
   </HediffDef>
-  
   <HediffDef Name="CrystalDrugMutationBase" Abstract="True">
     <hediffClass>HediffWithComps</hediffClass>
-	<isBad>false</isBad>
+    <isBad>false</isBad>
     <defaultLabelColor>(232,117,35)</defaultLabelColor>
     <maxSeverity>1.0</maxSeverity>
-	<initialSeverity>0.5</initialSeverity>
+    <initialSeverity>0.5</initialSeverity>
     <scenarioCanAdd>true</scenarioCanAdd>
-	<comps>
-    <li Class="HediffCompProperties_Immunizable"></li>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+      </li>
     </comps>
   </HediffDef>
-  
   <HediffDef Name="CrystalDrugMutationPartBase" Abstract="True">
     <hediffClass>Hediff_AddedPart</hediffClass>
     <isBad>false</isBad>
     <defaultLabelColor>(232,117,35)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
-	<comps>
-    <li Class="HediffCompProperties_Immunizable"></li>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+      </li>
     </comps>
   </HediffDef>
-  
   <NeedDef Name="CrystalDrugAddictionNeedBase" Abstract="True">
     <onlyIfCausedByHediff>true</onlyIfCausedByHediff>
     <tutorHighlightTag>NeedAddiction</tutorHighlightTag>
   </NeedDef>
-  
 </Defs>

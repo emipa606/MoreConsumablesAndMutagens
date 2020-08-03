@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATeaHigh.label>ambrosia tea</ATeaHigh.label>
+  <ATeaHigh.description>ambrosia tea</ATeaHigh.description>
+  <ATeaHigh.stages.0.label>buzzed-hidden</ATeaHigh.stages.0.label>
+  <ATeaHigh.stages.1.label>slight effect</ATeaHigh.stages.1.label>
+  <ATeaHigh.stages.2.label>max effect</ATeaHigh.stages.2.label>
+
+
+  <!-- Alcohol addiction -->
+
+  <AmbrosiaTeaTolerance.label>alcohol tolerance</AmbrosiaTeaTolerance.label>
+  <AmbrosiaTeaTolerance.description>alcohol tolerance</AmbrosiaTeaTolerance.description>
+
+  <AmbrosiaTeaAddiction.label>ambrosia tea addiction</AmbrosiaTeaAddiction.label>
+  <AmbrosiaTeaAddiction.description>ambrosia tea addiction</AmbrosiaTeaAddiction.description>
+  <AmbrosiaTeaAddiction.stages.1.label>withdrawal</AmbrosiaTeaAddiction.stages.1.label>
+
+
+</LanguageData>

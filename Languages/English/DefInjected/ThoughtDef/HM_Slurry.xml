@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Mutation Phase -->
+
+  <SlurryReaction.stages.0.label>mutagenic reaction (slurry)</SlurryReaction.stages.0.label>
+  <SlurryReaction.stages.0.description>That slurry was downright disgusting and my body doesn't feel right.</SlurryReaction.stages.0.description>
+  <SlurryReaction.stages.1.label>mutagenic reaction (slurry)</SlurryReaction.stages.1.label>
+  <SlurryReaction.stages.1.description>My insides feel like they are on fire!</SlurryReaction.stages.1.description>
+  <SlurryReaction.stages.2.label>mutagenic reaction (slurry)</SlurryReaction.stages.2.label>
+  <SlurryReaction.stages.2.description>I am really uneasy.</SlurryReaction.stages.2.description>
+
+
+</LanguageData>

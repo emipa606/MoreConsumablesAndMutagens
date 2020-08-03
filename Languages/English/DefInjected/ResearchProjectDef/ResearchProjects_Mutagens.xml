@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tier 3: Hi-tech research bench -->
+
+  <MutagenOne.label>catalyst serum</MutagenOne.label>
+  <MutagenOne.description>Allows the creation of the catalyst serum, the first step for creating homemade mutagens</MutagenOne.description>
+
+  <MutagenTwo.label>mutagen basics</MutagenTwo.label>
+  <MutagenTwo.description>Allows the creation of mutagenic slurries</MutagenTwo.description>
+
+
+</LanguageData>
