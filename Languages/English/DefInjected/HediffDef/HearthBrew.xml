@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <HearthBrewHigh.label>hearth brew</HearthBrewHigh.label>
   <HearthBrewHigh.description>hearth brew</HearthBrewHigh.description>
   <HearthBrewHigh.stages.0.label>warmed-hidden</HearthBrewHigh.stages.0.label>
   <HearthBrewHigh.stages.1.label>warmed</HearthBrewHigh.stages.1.label>
   <HearthBrewHigh.stages.2.label>cozy</HearthBrewHigh.stages.2.label>
-
-
 </LanguageData>

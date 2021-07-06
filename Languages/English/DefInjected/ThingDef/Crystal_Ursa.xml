@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <Ursa.label>ursa</Ursa.label>
   <Ursa.description>A brown pill with a mutagenic serum inside, anyone who consumes the pill mutates irreversibly. Forming beast like mutations, Ursa was primarily designed for use by special divisions of military shock troopers.</Ursa.description>
   <Ursa.ingestible.ingestCommandString>Take {0}</Ursa.ingestible.ingestCommandString>
   <Ursa.ingestible.ingestReportString>Taking {0}.</Ursa.ingestible.ingestReportString>
-
-
 </LanguageData>

@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeSlimePaste.label>make slime paste</MakeSlimePaste.label>
   <MakeSlimePaste.description>Processes slime gel into a paste that is edible and very nutritious.</MakeSlimePaste.description>
   <MakeSlimePaste.jobString>Processing slime paste.</MakeSlimePaste.jobString>
-
-
 </LanguageData>

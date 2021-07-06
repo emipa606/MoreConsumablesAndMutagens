@@ -1,22 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <OracaliumHigh.label>high on oracalium</OracaliumHigh.label>
   <OracaliumHigh.description>high on oracalium</OracaliumHigh.description>
-
-
   <!-- addiction -->
-
   <OracaliumAddiction.label>oracalium addiction</OracaliumAddiction.label>
   <OracaliumAddiction.description>oracalium addiction</OracaliumAddiction.description>
   <OracaliumAddiction.stages.1.label>withdrawal</OracaliumAddiction.stages.1.label>
-
   <OracaliumLongTerm.label>oracle psionic</OracaliumLongTerm.label>
   <OracaliumLongTerm.description>oracle psionic</OracaliumLongTerm.description>
   <OracaliumLongTerm.stages.1.label>class: 1</OracaliumLongTerm.stages.1.label>
   <OracaliumLongTerm.stages.2.label>class: 2</OracaliumLongTerm.stages.2.label>
   <OracaliumLongTerm.stages.3.label>class: 3</OracaliumLongTerm.stages.3.label>
   <OracaliumLongTerm.stages.4.label>class: 4</OracaliumLongTerm.stages.4.label>
-
-
 </LanguageData>

@@ -1,14 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Mutation Phase -->
-
   <IgniReaction.stages.0.label>mutagenic reaction (igni)</IgniReaction.stages.0.label>
   <IgniReaction.stages.0.description>My body doesn't feel right.</IgniReaction.stages.0.description>
   <IgniReaction.stages.1.label>mutagenic reaction (igni)</IgniReaction.stages.1.label>
   <IgniReaction.stages.1.description>My insides feel like they are on fire!</IgniReaction.stages.1.description>
   <IgniReaction.stages.2.label>mutagenic reaction (igni)</IgniReaction.stages.2.label>
   <IgniReaction.stages.2.description>I am really uneasy.</IgniReaction.stages.2.description>
-
-
 </LanguageData>

@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <HearthBrew.label>Hearth brew</HearthBrew.label>
   <HearthBrew.description>A warming and mildly alcoholic drink traditionally served in the winter to celebrate festivities.</HearthBrew.description>
   <HearthBrew.ingestible.ingestCommandString>Drink {0}</HearthBrew.ingestible.ingestCommandString>
   <HearthBrew.ingestible.ingestReportString>Drinking {0}.</HearthBrew.ingestible.ingestReportString>
-
-
 </LanguageData>

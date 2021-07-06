@@ -1,14 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Mutation phase -->
-
   <SilReaction.stages.0.label>mutagenic reaction (sil)</SilReaction.stages.0.label>
   <SilReaction.stages.0.description>My body doesn't feel right.</SilReaction.stages.0.description>
   <SilReaction.stages.1.label>mutagenic reaction (sil)</SilReaction.stages.1.label>
   <SilReaction.stages.1.description>Ugh, I have an awful headache.</SilReaction.stages.1.description>
   <SilReaction.stages.2.label>mutagenic reaction (sil)</SilReaction.stages.2.label>
   <SilReaction.stages.2.description>I am really uneasy.</SilReaction.stages.2.description>
-
-
 </LanguageData>

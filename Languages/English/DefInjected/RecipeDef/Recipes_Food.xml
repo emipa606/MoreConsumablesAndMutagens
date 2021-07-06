@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeAmbrosiaIcedTea.label>make ambrosia iced tea</MakeAmbrosiaIcedTea.label>
   <MakeAmbrosiaIcedTea.description>Make ambrosia iced tea, a calming beverage</MakeAmbrosiaIcedTea.description>
   <MakeAmbrosiaIcedTea.jobString>Making iced tea.</MakeAmbrosiaIcedTea.jobString>
-
   <MakeHearthBrew.label>make hearth brew</MakeHearthBrew.label>
   <MakeHearthBrew.description>Make hearth brew, a mildly alcoholic drink that warms the body</MakeHearthBrew.description>
   <MakeHearthBrew.jobString>Making hearth brew.</MakeHearthBrew.jobString>
-
-
 </LanguageData>

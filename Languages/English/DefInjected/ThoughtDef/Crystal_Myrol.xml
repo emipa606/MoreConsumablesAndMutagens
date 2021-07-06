@@ -1,14 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Mutation phase -->
-
   <MyrolReaction.stages.0.label>mutagenic reaction (myrol)</MyrolReaction.stages.0.label>
   <MyrolReaction.stages.0.description>I can feel it in my body.</MyrolReaction.stages.0.description>
   <MyrolReaction.stages.1.label>mutagenic reaction (myrol)</MyrolReaction.stages.1.label>
   <MyrolReaction.stages.1.description>My skin is crawling and my stomach is churning.</MyrolReaction.stages.1.description>
   <MyrolReaction.stages.2.label>mutagenic reaction (myrol)</MyrolReaction.stages.2.label>
   <MyrolReaction.stages.2.description>I am really uneasy.</MyrolReaction.stages.2.description>
-
-
 </LanguageData>

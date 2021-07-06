@@ -1,37 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- mutations -->
-
   <UrsaSleep.label>mutation: ponderous</UrsaSleep.label>
   <UrsaSleep.description>mutation: ponderous</UrsaSleep.description>
-
   <UrsaSlow.label>mutation: slow</UrsaSlow.label>
   <UrsaSlow.description>mutation: slow</UrsaSlow.description>
-
   <UrsaFur.label>mutation: fur</UrsaFur.label>
   <UrsaFur.description>mutation: fur</UrsaFur.description>
-
   <UrsaDisfigured.label>mutation: disfigured</UrsaDisfigured.label>
   <UrsaDisfigured.description>mutation: disfigured</UrsaDisfigured.description>
-
   <UrsaClaws.label>mutation: claw</UrsaClaws.label>
   <UrsaClaws.description>mutation: claw</UrsaClaws.description>
-
   <UrsaHorns.label>mutation: horns</UrsaHorns.label>
   <UrsaHorns.description>mutation: horns</UrsaHorns.description>
-
   <UrsaWild.label>mutation: animal-like</UrsaWild.label>
   <UrsaWild.description>mutation: animal-like</UrsaWild.description>
-
-
   <!-- Mutation phase -->
-
   <UrsaHigh.label>mutagenic reaction (ursa)</UrsaHigh.label>
   <UrsaHigh.description>mutagenic reaction (ursa)</UrsaHigh.description>
   <UrsaHigh.stages.0.label>receding</UrsaHigh.stages.0.label>
   <UrsaHigh.stages.1.label>active</UrsaHigh.stages.1.label>
   <UrsaHigh.stages.2.label>initial</UrsaHigh.stages.2.label>
-
-
 </LanguageData>

@@ -1,14 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <EggSlimeUnfertilized.label>slime egg (unfert.)</EggSlimeUnfertilized.label>
   <EggSlimeUnfertilized.description>Some strange egg thing layed by a mutagenic slime. It can be eaten.</EggSlimeUnfertilized.description>
-
   <EggSlimeFertilized.label>slime egg (fert.)</EggSlimeFertilized.label>
   <EggSlimeFertilized.description>Some strange fertilized slime egg. If all goes well, it should hatch into a slime. It can be eaten.</EggSlimeFertilized.description>
-
   <CatalystSerum.label>catalyst serum</CatalystSerum.label>
   <CatalystSerum.description>Disgusting slurry of medical supplies and raw meat that breaks down into a mutagenic sludge.</CatalystSerum.description>
-
-
 </LanguageData>

@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MakeCatalystSerum.label>make catalyst serum</MakeCatalystSerum.label>
   <MakeCatalystSerum.description>Make mutagenic catalyst serum from medical supplies and raw meat</MakeCatalystSerum.description>
   <MakeCatalystSerum.jobString>Brewing catalyst.</MakeCatalystSerum.jobString>
-
-
 </LanguageData>
