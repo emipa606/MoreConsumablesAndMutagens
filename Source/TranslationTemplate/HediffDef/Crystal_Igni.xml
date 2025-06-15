@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mutation: plated arm -->
+  <IgniArm.label>mutation: plated arm</IgniArm.label>
+  <!-- EN: mutation: plated arm -->
+  <IgniArm.description>mutation: plated arm</IgniArm.description>
+  <!-- EN: mutation: core heart -->
+  <IgniCore.label>mutation: core heart</IgniCore.label>
+  <!-- EN: mutation: core heart -->
+  <IgniCore.description>mutation: core heart</IgniCore.description>
+  <!-- EN: mutation: furnace -->
+  <IgniFurnace.label>mutation: furnace</IgniFurnace.label>
+  <!-- EN: mutation: furnace -->
+  <IgniFurnace.description>mutation: furnace</IgniFurnace.description>
+  <!-- EN: mutagenic reaction (igni) -->
+  <IgniHigh.label>mutagenic reaction (igni)</IgniHigh.label>
+  <!-- EN: mutagenic reaction (igni) -->
+  <IgniHigh.description>mutagenic reaction (igni)</IgniHigh.description>
+  <!-- EN: receding -->
+  <IgniHigh.stages.receding.label>receding</IgniHigh.stages.receding.label>
+  <!-- EN: active -->
+  <IgniHigh.stages.active.label>active</IgniHigh.stages.active.label>
+  <!-- EN: initial -->
+  <IgniHigh.stages.initial.label>initial</IgniHigh.stages.initial.label>
+  <!-- EN: mutation: rage -->
+  <IgniRage.label>mutation: rage</IgniRage.label>
+  <!-- EN: mutation: rage -->
+  <IgniRage.description>mutation: rage</IgniRage.description>
+  <!-- EN: mutation: speed -->
+  <IgniSpeed.label>mutation: speed</IgniSpeed.label>
+  <!-- EN: mutation: speed -->
+  <IgniSpeed.description>mutation: speed</IgniSpeed.description>
+  <!-- EN: mutation: strong back -->
+  <IgniStrongBack.label>mutation: strong back</IgniStrongBack.label>
+  <!-- EN: mutation: strong back -->
+  <IgniStrongBack.description>mutation: strong back</IgniStrongBack.description>
+  <!-- EN: mutation: warm -->
+  <IgniWarm.label>mutation: warm</IgniWarm.label>
+  <!-- EN: mutation: warm -->
+  <IgniWarm.description>mutation: warm</IgniWarm.description>
+</LanguageData>

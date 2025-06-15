@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: slime gel -->
+  <SlimeGel.label>slime gel</SlimeGel.label>
+  <!-- EN: Gel like fluid extracted from a living slime, has a few uses in the lab or can be cooked into a very nutritious paste. -->
+  <SlimeGel.description>Gel like fluid extracted from a living slime, has a few uses in the lab or can be cooked into a very nutritious paste.</SlimeGel.description>
+  <!-- EN: slime glob -->
+  <SlimeGlob.label>slime glob</SlimeGlob.label>
+  <!-- EN: Glob extracted from a slain slime creature, used in mutagen recipes. -->
+  <SlimeGlob.description>Glob extracted from a slain slime creature, used in mutagen recipes.</SlimeGlob.description>
+  <!-- EN: slime paste -->
+  <SlimePaste.label>slime paste</SlimePaste.label>
+  <!-- EN: Nutritious paste made from slime gel, not very tasty alone but the flavor cooks into meals quite well. -->
+  <SlimePaste.description>Nutritious paste made from slime gel, not very tasty alone but the flavor cooks into meals quite well.</SlimePaste.description>
+</LanguageData>

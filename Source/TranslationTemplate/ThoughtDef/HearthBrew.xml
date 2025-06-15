@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: buzzed-hidden -->
+  <HearthBrewHappy.stages.buzzedhidden.label>buzzed-hidden</HearthBrewHappy.stages.buzzedhidden.label>
+  <!-- EN: Should not appear. -->
+  <HearthBrewHappy.stages.buzzedhidden.description>Should not appear.</HearthBrewHappy.stages.buzzedhidden.description>
+  <!-- EN: warm feeling -->
+  <HearthBrewHappy.stages.warm_feeling.label>warm feeling</HearthBrewHappy.stages.warm_feeling.label>
+  <!-- EN: That brew really made me feel warm and cozy. -->
+  <HearthBrewHappy.stages.warm_feeling.description>That brew really made me feel warm and cozy.</HearthBrewHappy.stages.warm_feeling.description>
+</LanguageData>

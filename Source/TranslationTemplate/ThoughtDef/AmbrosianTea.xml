@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: buzzed-hidden -->
+  <AmbrosiaTeaHappy.stages.buzzedhidden.label>buzzed-hidden</AmbrosiaTeaHappy.stages.buzzedhidden.label>
+  <!-- EN: Should not appear. -->
+  <AmbrosiaTeaHappy.stages.buzzedhidden.description>Should not appear.</AmbrosiaTeaHappy.stages.buzzedhidden.description>
+  <!-- EN: Ambrosia iced tea -->
+  <AmbrosiaTeaHappy.stages.Ambrosia_iced_tea.label>Ambrosia iced tea</AmbrosiaTeaHappy.stages.Ambrosia_iced_tea.label>
+  <!-- EN: That was satisfying. -->
+  <AmbrosiaTeaHappy.stages.Ambrosia_iced_tea.description>That was satisfying.</AmbrosiaTeaHappy.stages.Ambrosia_iced_tea.description>
+  <!-- EN: ambrosia tea withdrawal -->
+  <AmbrosiaTeaWithdrawal.stages.ambrosia_tea_withdrawal.label>ambrosia tea withdrawal</AmbrosiaTeaWithdrawal.stages.ambrosia_tea_withdrawal.label>
+  <!-- EN: Feeling shaky. -->
+  <AmbrosiaTeaWithdrawal.stages.ambrosia_tea_withdrawal.description>Feeling shaky.</AmbrosiaTeaWithdrawal.stages.ambrosia_tea_withdrawal.description>
+</LanguageData>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mutation: absent -->
+  <MidiaAbsent.label>mutation: absent</MidiaAbsent.label>
+  <!-- EN: mutation: absent -->
+  <MidiaAbsent.description>mutation: absent</MidiaAbsent.description>
+  <!-- EN: mutation: blurred -->
+  <MidiaBlur.label>mutation: blurred</MidiaBlur.label>
+  <!-- EN: mutation: blurred -->
+  <MidiaBlur.description>mutation: blurred</MidiaBlur.description>
+  <!-- EN: mutation: forgetful -->
+  <MidiaForget.label>mutation: forgetful</MidiaForget.label>
+  <!-- EN: mutation: forgetful -->
+  <MidiaForget.description>mutation: forgetful</MidiaForget.description>
+  <!-- EN: mutagenic reaction (midia) -->
+  <MidiaHigh.label>mutagenic reaction (midia)</MidiaHigh.label>
+  <!-- EN: mutagenic reaction (midia) -->
+  <MidiaHigh.description>mutagenic reaction (midia)</MidiaHigh.description>
+  <!-- EN: receding -->
+  <MidiaHigh.stages.receding.label>receding</MidiaHigh.stages.receding.label>
+  <!-- EN: active -->
+  <MidiaHigh.stages.active.label>active</MidiaHigh.stages.active.label>
+  <!-- EN: initial -->
+  <MidiaHigh.stages.initial.label>initial</MidiaHigh.stages.initial.label>
+  <!-- EN: mutation: keen -->
+  <MidiaKeen.label>mutation: keen</MidiaKeen.label>
+  <!-- EN: mutation: keen -->
+  <MidiaKeen.description>mutation: keen</MidiaKeen.description>
+  <!-- EN: mutation: rough voice -->
+  <MidiaRough.label>mutation: rough voice</MidiaRough.label>
+  <!-- EN: mutation: rough voice -->
+  <MidiaRough.description>mutation: rough voice</MidiaRough.description>
+  <!-- EN: mutation: intelligent -->
+  <MidiaSmart.label>mutation: intelligent</MidiaSmart.label>
+  <!-- EN: mutation: intelligent -->
+  <MidiaSmart.description>mutation: intelligent</MidiaSmart.description>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Hearth brew -->
+  <HearthBrew.label>Hearth brew</HearthBrew.label>
+  <!-- EN: A warming and mildly alcoholic drink traditionally served in the winter to celebrate festivities. -->
+  <HearthBrew.description>A warming and mildly alcoholic drink traditionally served in the winter to celebrate festivities.</HearthBrew.description>
+  <!-- EN: Drink {0} -->
+  <HearthBrew.ingestible.ingestCommandString>Drink {0}</HearthBrew.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <HearthBrew.ingestible.ingestReportString>Drinking {0}.</HearthBrew.ingestible.ingestReportString>
+</LanguageData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: oracalium addiction -->
+  <OracaliumAddiction.label>oracalium addiction</OracaliumAddiction.label>
+  <!-- EN: oracalium addiction -->
+  <OracaliumAddiction.description>oracalium addiction</OracaliumAddiction.description>
+  <!-- EN: withdrawal -->
+  <OracaliumAddiction.stages.withdrawal.label>withdrawal</OracaliumAddiction.stages.withdrawal.label>
+  <!-- EN: high on oracalium -->
+  <OracaliumHigh.label>high on oracalium</OracaliumHigh.label>
+  <!-- EN: high on oracalium -->
+  <OracaliumHigh.description>high on oracalium</OracaliumHigh.description>
+  <!-- EN: oracle psionic -->
+  <OracaliumLongTerm.label>oracle psionic</OracaliumLongTerm.label>
+  <!-- EN: oracle psionic -->
+  <OracaliumLongTerm.description>oracle psionic</OracaliumLongTerm.description>
+  <!-- EN: class: 1 -->
+  <OracaliumLongTerm.stages.class_1.label>class: 1</OracaliumLongTerm.stages.class_1.label>
+  <!-- EN: class: 2 -->
+  <OracaliumLongTerm.stages.class_2.label>class: 2</OracaliumLongTerm.stages.class_2.label>
+  <!-- EN: class: 3 -->
+  <OracaliumLongTerm.stages.class_3.label>class: 3</OracaliumLongTerm.stages.class_3.label>
+  <!-- EN: class: 4 -->
+  <OracaliumLongTerm.stages.class_4.label>class: 4</OracaliumLongTerm.stages.class_4.label>
+</LanguageData>

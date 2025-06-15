@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: slime -->
+  <CMSlime.label>slime</CMSlime.label>
+  <CMSlime.labelFemale />
+  <CMSlime.labelFemalePlural />
+  <CMSlime.labelMale />
+  <CMSlime.labelMalePlural />
+  <CMSlime.labelPlural />
+  <CMSlime.lifeStages.0.label />
+  <CMSlime.lifeStages.0.labelFemale />
+  <CMSlime.lifeStages.0.labelFemalePlural />
+  <CMSlime.lifeStages.0.labelMale />
+  <CMSlime.lifeStages.0.labelMalePlural />
+  <CMSlime.lifeStages.0.labelPlural />
+  <CMSlime.lifeStages.1.label />
+  <CMSlime.lifeStages.1.labelFemale />
+  <CMSlime.lifeStages.1.labelFemalePlural />
+  <CMSlime.lifeStages.1.labelMale />
+  <CMSlime.lifeStages.1.labelMalePlural />
+  <CMSlime.lifeStages.1.labelPlural />
+  <CMSlime.lifeStages.2.label />
+  <CMSlime.lifeStages.2.labelFemale />
+  <CMSlime.lifeStages.2.labelFemalePlural />
+  <CMSlime.lifeStages.2.labelMale />
+  <CMSlime.lifeStages.2.labelMalePlural />
+  <CMSlime.lifeStages.2.labelPlural />
+</LanguageData>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: administer Ambrosian iced tea -->
+  <Administer_AmbrosiaTea.label>administer Ambrosian iced tea</Administer_AmbrosiaTea.label>
+  <!-- EN: Administering Ambrosian iced tea. -->
+  <Administer_AmbrosiaTea.jobString>Administering Ambrosian iced tea.</Administer_AmbrosiaTea.jobString>
+  <!-- EN: administer Hearth brew -->
+  <Administer_HearthBrew.label>administer Hearth brew</Administer_HearthBrew.label>
+  <!-- EN: Administering Hearth brew. -->
+  <Administer_HearthBrew.jobString>Administering Hearth brew.</Administer_HearthBrew.jobString>
+  <!-- EN: administer herbal tincture -->
+  <Administer_HerbalTincture.label>administer herbal tincture</Administer_HerbalTincture.label>
+  <!-- EN: Administering herbal tincture. -->
+  <Administer_HerbalTincture.jobString>Administering herbal tincture.</Administer_HerbalTincture.jobString>
+  <!-- EN: administer ichorio -->
+  <Administer_Ichorio.label>administer ichorio</Administer_Ichorio.label>
+  <!-- EN: Administering ichorio. -->
+  <Administer_Ichorio.jobString>Administering ichorio.</Administer_Ichorio.jobString>
+  <!-- EN: administer igni -->
+  <Administer_Igni.label>administer igni</Administer_Igni.label>
+  <!-- EN: Administering igni. -->
+  <Administer_Igni.jobString>Administering igni.</Administer_Igni.jobString>
+  <!-- EN: administer midia -->
+  <Administer_Midia.label>administer midia</Administer_Midia.label>
+  <!-- EN: Administering midia. -->
+  <Administer_Midia.jobString>Administering midia.</Administer_Midia.jobString>
+  <!-- EN: administer mutagenic slurry -->
+  <Administer_MutagenSlurry.label>administer mutagenic slurry</Administer_MutagenSlurry.label>
+  <!-- EN: Administering mutagenic slurry. -->
+  <Administer_MutagenSlurry.jobString>Administering mutagenic slurry.</Administer_MutagenSlurry.jobString>
+  <!-- EN: administer myrol -->
+  <Administer_Myrol.label>administer myrol</Administer_Myrol.label>
+  <!-- EN: Administering myrol. -->
+  <Administer_Myrol.jobString>Administering myrol.</Administer_Myrol.jobString>
+  <!-- EN: administer oracalium -->
+  <Administer_Oracalium.label>administer oracalium</Administer_Oracalium.label>
+  <!-- EN: Administering oracalium. -->
+  <Administer_Oracalium.jobString>Administering oracalium.</Administer_Oracalium.jobString>
+  <!-- EN: administer sil -->
+  <Administer_Sil.label>administer sil</Administer_Sil.label>
+  <!-- EN: Administering sil. -->
+  <Administer_Sil.jobString>Administering sil.</Administer_Sil.jobString>
+  <!-- EN: administer ursa -->
+  <Administer_Ursa.label>administer ursa</Administer_Ursa.label>
+  <!-- EN: Administering ursa. -->
+  <Administer_Ursa.jobString>Administering ursa.</Administer_Ursa.jobString>
+  <!-- EN: make herbal tincture -->
+  <Make_HerbalTincture.label>make herbal tincture</Make_HerbalTincture.label>
+  <!-- EN: Make a herbal tincture. -->
+  <Make_HerbalTincture.description>Make a herbal tincture.</Make_HerbalTincture.description>
+  <!-- EN: Making herbal tincture. -->
+  <Make_HerbalTincture.jobString>Making herbal tincture.</Make_HerbalTincture.jobString>
+  <!-- EN: make oracalium -->
+  <Make_Oracalium.label>make oracalium</Make_Oracalium.label>
+  <!-- EN: Make an oracalium. -->
+  <Make_Oracalium.description>Make an oracalium.</Make_Oracalium.description>
+  <!-- EN: Making oracalium. -->
+  <Make_Oracalium.jobString>Making oracalium.</Make_Oracalium.jobString>
+</LanguageData>

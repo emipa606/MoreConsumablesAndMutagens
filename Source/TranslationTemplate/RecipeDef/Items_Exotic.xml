@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make slime paste -->
+  <MakeSlimePaste.label>make slime paste</MakeSlimePaste.label>
+  <!-- EN: Processes slime gel into a paste that is edible and very nutritious. -->
+  <MakeSlimePaste.description>Processes slime gel into a paste that is edible and very nutritious.</MakeSlimePaste.description>
+  <!-- EN: Processing slime paste. -->
+  <MakeSlimePaste.jobString>Processing slime paste.</MakeSlimePaste.jobString>
+</LanguageData>

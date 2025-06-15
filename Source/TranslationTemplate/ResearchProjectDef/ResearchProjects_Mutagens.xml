@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: catalyst serum -->
+  <MutagenOne.label>catalyst serum</MutagenOne.label>
+  <!-- EN: Allows the creation of the catalyst serum, the first step for creating homemade mutagens -->
+  <MutagenOne.description>Allows the creation of the catalyst serum, the first step for creating homemade mutagens</MutagenOne.description>
+  <!-- EN: mutagen basics -->
+  <MutagenTwo.label>mutagen basics</MutagenTwo.label>
+  <!-- EN: Allows the creation of mutagenic slurries -->
+  <MutagenTwo.description>Allows the creation of mutagenic slurries</MutagenTwo.description>
+</LanguageData>

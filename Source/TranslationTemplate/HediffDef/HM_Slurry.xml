@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mutation: agile -->
+  <SlurryAgile.label>mutation: agile</SlurryAgile.label>
+  <!-- EN: mutation: agile -->
+  <SlurryAgile.description>mutation: agile</SlurryAgile.description>
+  <!-- EN: mutation: lizard eyes -->
+  <SlurryEyes.label>mutation: lizard eyes</SlurryEyes.label>
+  <!-- EN: mutation: lizard eyes -->
+  <SlurryEyes.description>mutation: lizard eyes</SlurryEyes.description>
+  <!-- EN: mutagenic reaction (slurry) -->
+  <SlurryHigh.label>mutagenic reaction (slurry)</SlurryHigh.label>
+  <!-- EN: mutagenic reaction (slurry) -->
+  <SlurryHigh.description>mutagenic reaction (slurry)</SlurryHigh.description>
+  <!-- EN: receding -->
+  <SlurryHigh.stages.receding.label>receding</SlurryHigh.stages.receding.label>
+  <!-- EN: active -->
+  <SlurryHigh.stages.active.label>active</SlurryHigh.stages.active.label>
+  <!-- EN: initial -->
+  <SlurryHigh.stages.initial.label>initial</SlurryHigh.stages.initial.label>
+  <!-- EN: mutation: slimy skin -->
+  <SlurrySlimy.label>mutation: slimy skin</SlurrySlimy.label>
+  <!-- EN: mutation: slimy skin -->
+  <SlurrySlimy.description>mutation: slimy skin</SlurrySlimy.description>
+  <!-- EN: mutation: soothing aura -->
+  <SlurrySooth.label>mutation: soothing aura</SlurrySooth.label>
+  <!-- EN: mutation: soothing aura -->
+  <SlurrySooth.description>mutation: soothing aura</SlurrySooth.description>
+  <!-- EN: mutation: stagnant -->
+  <SlurryStagnant.label>mutation: stagnant</SlurryStagnant.label>
+  <!-- EN: mutation: stagnant -->
+  <SlurryStagnant.description>mutation: stagnant</SlurryStagnant.description>
+  <!-- EN: mutation: strong -->
+  <SlurryStrong.label>mutation: strong</SlurryStrong.label>
+  <!-- EN: mutation: strong -->
+  <SlurryStrong.description>mutation: strong</SlurryStrong.description>
+  <!-- EN: mutation: wired -->
+  <SlurryWired.label>mutation: wired</SlurryWired.label>
+  <!-- EN: mutation: wired -->
+  <SlurryWired.description>mutation: wired</SlurryWired.description>
+  <!-- EN: mutation: withering -->
+  <SlurryWithering.label>mutation: withering</SlurryWithering.label>
+  <!-- EN: mutation: withering -->
+  <SlurryWithering.description>mutation: withering</SlurryWithering.description>
+</LanguageData>

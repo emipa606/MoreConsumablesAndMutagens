@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mutagenic reaction (ursa) -->
+  <UrsaReaction.stages.mutagenic_reaction_ursa-0.label>mutagenic reaction (ursa)</UrsaReaction.stages.mutagenic_reaction_ursa-0.label>
+  <!-- EN: My body doesn't feel right. -->
+  <UrsaReaction.stages.mutagenic_reaction_ursa-0.description>My body doesn't feel right.</UrsaReaction.stages.mutagenic_reaction_ursa-0.description>
+  <!-- EN: mutagenic reaction (ursa) -->
+  <UrsaReaction.stages.mutagenic_reaction_ursa-1.label>mutagenic reaction (ursa)</UrsaReaction.stages.mutagenic_reaction_ursa-1.label>
+  <!-- EN: I feel like something deep inside me is yelling and screaming. -->
+  <UrsaReaction.stages.mutagenic_reaction_ursa-1.description>I feel like something deep inside me is yelling and screaming.</UrsaReaction.stages.mutagenic_reaction_ursa-1.description>
+  <!-- EN: mutagenic reaction (ursa) -->
+  <UrsaReaction.stages.mutagenic_reaction_ursa-2.label>mutagenic reaction (ursa)</UrsaReaction.stages.mutagenic_reaction_ursa-2.label>
+  <!-- EN: I am really uneasy. -->
+  <UrsaReaction.stages.mutagenic_reaction_ursa-2.description>I am really uneasy.</UrsaReaction.stages.mutagenic_reaction_ursa-2.description>
+</LanguageData>

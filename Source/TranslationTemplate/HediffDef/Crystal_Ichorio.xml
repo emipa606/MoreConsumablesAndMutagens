@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ichorio psionic -->
+  <IchorioHigh.label>ichorio psionic</IchorioHigh.label>
+  <!-- EN: ichorio psionic -->
+  <IchorioHigh.description>ichorio psionic</IchorioHigh.description>
+  <!-- EN: class: 1 -->
+  <IchorioHigh.stages.class_1.label>class: 1</IchorioHigh.stages.class_1.label>
+  <!-- EN: class: 2 -->
+  <IchorioHigh.stages.class_2.label>class: 2</IchorioHigh.stages.class_2.label>
+  <!-- EN: class: 3 -->
+  <IchorioHigh.stages.class_3.label>class: 3</IchorioHigh.stages.class_3.label>
+  <!-- EN: class: 4 -->
+  <IchorioHigh.stages.class_4.label>class: 4</IchorioHigh.stages.class_4.label>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Ambrosian iced tea -->
+  <AmbrosiaTea.label>Ambrosian iced tea</AmbrosiaTea.label>
+  <!-- EN: A delightful beverage made by steeping ambrosia in boiling water and cooling it down. The resulting tea calms the nerves and offers minor health benefits, but is not addictive. However, those with an addiction to ambrosia won't feel satisfied with this. -->
+  <AmbrosiaTea.description>A delightful beverage made by steeping ambrosia in boiling water and cooling it down. The resulting tea calms the nerves and offers minor health benefits, but is not addictive. However, those with an addiction to ambrosia won't feel satisfied with this.</AmbrosiaTea.description>
+  <!-- EN: Drink {0} -->
+  <AmbrosiaTea.ingestible.ingestCommandString>Drink {0}</AmbrosiaTea.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <AmbrosiaTea.ingestible.ingestReportString>Drinking {0}.</AmbrosiaTea.ingestible.ingestReportString>
+</LanguageData>

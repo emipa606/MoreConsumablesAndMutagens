@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mutation: claw -->
+  <UrsaClaws.label>mutation: claw</UrsaClaws.label>
+  <!-- EN: mutation: claw -->
+  <UrsaClaws.description>mutation: claw</UrsaClaws.description>
+  <!-- EN: mutation: disfigured -->
+  <UrsaDisfigured.label>mutation: disfigured</UrsaDisfigured.label>
+  <!-- EN: mutation: disfigured -->
+  <UrsaDisfigured.description>mutation: disfigured</UrsaDisfigured.description>
+  <!-- EN: mutation: fur -->
+  <UrsaFur.label>mutation: fur</UrsaFur.label>
+  <!-- EN: mutation: fur -->
+  <UrsaFur.description>mutation: fur</UrsaFur.description>
+  <!-- EN: mutagenic reaction (ursa) -->
+  <UrsaHigh.label>mutagenic reaction (ursa)</UrsaHigh.label>
+  <!-- EN: mutagenic reaction (ursa) -->
+  <UrsaHigh.description>mutagenic reaction (ursa)</UrsaHigh.description>
+  <!-- EN: receding -->
+  <UrsaHigh.stages.receding.label>receding</UrsaHigh.stages.receding.label>
+  <!-- EN: active -->
+  <UrsaHigh.stages.active.label>active</UrsaHigh.stages.active.label>
+  <!-- EN: initial -->
+  <UrsaHigh.stages.initial.label>initial</UrsaHigh.stages.initial.label>
+  <!-- EN: mutation: horns -->
+  <UrsaHorns.label>mutation: horns</UrsaHorns.label>
+  <!-- EN: mutation: horns -->
+  <UrsaHorns.description>mutation: horns</UrsaHorns.description>
+  <!-- EN: mutation: ponderous -->
+  <UrsaSleep.label>mutation: ponderous</UrsaSleep.label>
+  <!-- EN: mutation: ponderous -->
+  <UrsaSleep.description>mutation: ponderous</UrsaSleep.description>
+  <!-- EN: mutation: slow -->
+  <UrsaSlow.label>mutation: slow</UrsaSlow.label>
+  <!-- EN: mutation: slow -->
+  <UrsaSlow.description>mutation: slow</UrsaSlow.description>
+  <!-- EN: mutation: animal-like -->
+  <UrsaWild.label>mutation: animal-like</UrsaWild.label>
+  <!-- EN: mutation: animal-like -->
+  <UrsaWild.description>mutation: animal-like</UrsaWild.description>
+</LanguageData>

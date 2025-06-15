@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 2765504688
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9186c84d04bb1f27335faa9e5cbf3a4c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9186c84d04bb1f27335faa9e5cbf3a4c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/Ichorio.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/HerbalTincture.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/SlimePaste.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/Myrol.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/AmbrosiaTea.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/HearthBrew.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/Sil.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/SlimeGlob.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/Midia.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/Pawn/Slime/Slime_south.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/MutagenSlurry.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/Oracalium/Oracalium_b.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/Oracalium/Oracalium_a.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/Igni.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/Ursa.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/CatalystSerum.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/Pawn/Slime/Slime_east.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/Pawn/Slime/Slime_north.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/Oracalium/Oracalium_c.png
+- Assets/Data/Mlie.MoreConsumablesAndMutagens/Textures/Things/SlimeGel.png
+Dependencies: []

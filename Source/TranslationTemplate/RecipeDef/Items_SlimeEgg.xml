@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make catalyst serum -->
+  <MakeCatalystSerum.label>make catalyst serum</MakeCatalystSerum.label>
+  <!-- EN: Make mutagenic catalyst serum from medical supplies and raw meat -->
+  <MakeCatalystSerum.description>Make mutagenic catalyst serum from medical supplies and raw meat</MakeCatalystSerum.description>
+  <!-- EN: Brewing catalyst. -->
+  <MakeCatalystSerum.jobString>Brewing catalyst.</MakeCatalystSerum.jobString>
+</LanguageData>

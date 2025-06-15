@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: slime -->
+  <CMSlime.label>slime</CMSlime.label>
+  <!-- EN: A sentient glob made from mutagenic chemicals, it grows rapidly and to large sizes. It constantly seeks living matter to assimilate. -->
+  <CMSlime.description>A sentient glob made from mutagenic chemicals, it grows rapidly and to large sizes. It constantly seeks living matter to assimilate.</CMSlime.description>
+  <!-- EN: head -->
+  <CMSlime.tools.head.label>head</CMSlime.tools.head.label>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mutagenic reaction (myrol) -->
+  <MyrolReaction.stages.mutagenic_reaction_myrol-0.label>mutagenic reaction (myrol)</MyrolReaction.stages.mutagenic_reaction_myrol-0.label>
+  <!-- EN: I can feel it in my body. -->
+  <MyrolReaction.stages.mutagenic_reaction_myrol-0.description>I can feel it in my body.</MyrolReaction.stages.mutagenic_reaction_myrol-0.description>
+  <!-- EN: mutagenic reaction (myrol) -->
+  <MyrolReaction.stages.mutagenic_reaction_myrol-1.label>mutagenic reaction (myrol)</MyrolReaction.stages.mutagenic_reaction_myrol-1.label>
+  <!-- EN: My skin is crawling and my stomach is churning. -->
+  <MyrolReaction.stages.mutagenic_reaction_myrol-1.description>My skin is crawling and my stomach is churning.</MyrolReaction.stages.mutagenic_reaction_myrol-1.description>
+  <!-- EN: mutagenic reaction (myrol) -->
+  <MyrolReaction.stages.mutagenic_reaction_myrol-2.label>mutagenic reaction (myrol)</MyrolReaction.stages.mutagenic_reaction_myrol-2.label>
+  <!-- EN: I am really uneasy. -->
+  <MyrolReaction.stages.mutagenic_reaction_myrol-2.description>I am really uneasy.</MyrolReaction.stages.mutagenic_reaction_myrol-2.description>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make ambrosia iced tea -->
+  <MakeAmbrosiaIcedTea.label>make ambrosia iced tea</MakeAmbrosiaIcedTea.label>
+  <!-- EN: Make ambrosia iced tea, a calming beverage -->
+  <MakeAmbrosiaIcedTea.description>Make ambrosia iced tea, a calming beverage</MakeAmbrosiaIcedTea.description>
+  <!-- EN: Making iced tea. -->
+  <MakeAmbrosiaIcedTea.jobString>Making iced tea.</MakeAmbrosiaIcedTea.jobString>
+  <!-- EN: make hearth brew -->
+  <MakeHearthBrew.label>make hearth brew</MakeHearthBrew.label>
+  <!-- EN: Make hearth brew, a mildly alcoholic drink that warms the body -->
+  <MakeHearthBrew.description>Make hearth brew, a mildly alcoholic drink that warms the body</MakeHearthBrew.description>
+  <!-- EN: Making hearth brew. -->
+  <MakeHearthBrew.jobString>Making hearth brew.</MakeHearthBrew.jobString>
+</LanguageData>

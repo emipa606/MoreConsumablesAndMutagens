@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: high on oracalium -->
+  <OracaliumHigh.stages.high_on_oracalium.label>high on oracalium</OracaliumHigh.stages.high_on_oracalium.label>
+  <!-- EN: My mind feels open and clear! I am focused! -->
+  <OracaliumHigh.stages.high_on_oracalium.description>My mind feels open and clear! I am focused!</OracaliumHigh.stages.high_on_oracalium.description>
+  <!-- EN: oracalium withdrawal -->
+  <OracaliumWithdrawal.stages.oracalium_withdrawal.label>oracalium withdrawal</OracaliumWithdrawal.stages.oracalium_withdrawal.label>
+  <!-- EN: I just can't think straight. -->
+  <OracaliumWithdrawal.stages.oracalium_withdrawal.description>I just can't think straight.</OracaliumWithdrawal.stages.oracalium_withdrawal.description>
+</LanguageData>

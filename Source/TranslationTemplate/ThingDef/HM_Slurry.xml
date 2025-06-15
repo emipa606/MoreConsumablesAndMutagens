@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mutagenic slurry -->
+  <MutagenSlurry.label>mutagenic slurry</MutagenSlurry.label>
+  <!-- EN: A homemade mutagenic slurry made from slime, medicine, and raw meat. It has random mutagenic properties. Being one of the most vile and foul smelling things in existance, anyone who drinks it will undoubtedly be beyond disgusted. -->
+  <MutagenSlurry.description>A homemade mutagenic slurry made from slime, medicine, and raw meat. It has random mutagenic properties. Being one of the most vile and foul smelling things in existance, anyone who drinks it will undoubtedly be beyond disgusted.</MutagenSlurry.description>
+  <!-- EN: Drink {0} -->
+  <MutagenSlurry.ingestible.ingestCommandString>Drink {0}</MutagenSlurry.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <MutagenSlurry.ingestible.ingestReportString>Drinking {0}.</MutagenSlurry.ingestible.ingestReportString>
+</LanguageData>

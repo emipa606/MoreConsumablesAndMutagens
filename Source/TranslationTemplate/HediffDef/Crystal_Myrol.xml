@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mutagenic reaction (myrol) -->
+  <MyrolHigh.label>mutagenic reaction (myrol)</MyrolHigh.label>
+  <!-- EN: mutagenic reaction (myrol) -->
+  <MyrolHigh.description>mutagenic reaction (myrol)</MyrolHigh.description>
+  <!-- EN: receding -->
+  <MyrolHigh.stages.receding.label>receding</MyrolHigh.stages.receding.label>
+  <!-- EN: active -->
+  <MyrolHigh.stages.active.label>active</MyrolHigh.stages.active.label>
+  <!-- EN: initial -->
+  <MyrolHigh.stages.initial.label>initial</MyrolHigh.stages.initial.label>
+  <!-- EN: mutation: constricted breathing -->
+  <MyrolLung.label>mutation: constricted breathing</MyrolLung.label>
+  <!-- EN: mutation: constricted breathing -->
+  <MyrolLung.description>mutation: constricted breathing</MyrolLung.description>
+  <!-- EN: mutation: myrolsis -->
+  <MyrolMyrolsis.label>mutation: myrolsis</MyrolMyrolsis.label>
+  <!-- EN: mutation: myrolsis -->
+  <MyrolMyrolsis.description>mutation: myrolsis</MyrolMyrolsis.description>
+  <!-- EN: mutation: mind static -->
+  <MyrolStatic.label>mutation: mind static</MyrolStatic.label>
+  <!-- EN: mutation: mind static -->
+  <MyrolStatic.description>mutation: mind static</MyrolStatic.description>
+</LanguageData>

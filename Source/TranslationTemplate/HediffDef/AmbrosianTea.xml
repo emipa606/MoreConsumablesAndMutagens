@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ambrosia tea addiction -->
+  <AmbrosiaTeaAddiction.label>ambrosia tea addiction</AmbrosiaTeaAddiction.label>
+  <!-- EN: ambrosia tea addiction -->
+  <AmbrosiaTeaAddiction.description>ambrosia tea addiction</AmbrosiaTeaAddiction.description>
+  <!-- EN: withdrawal -->
+  <AmbrosiaTeaAddiction.stages.withdrawal.label>withdrawal</AmbrosiaTeaAddiction.stages.withdrawal.label>
+  <!-- EN: alcohol tolerance -->
+  <AmbrosiaTeaTolerance.label>alcohol tolerance</AmbrosiaTeaTolerance.label>
+  <!-- EN: alcohol tolerance -->
+  <AmbrosiaTeaTolerance.description>alcohol tolerance</AmbrosiaTeaTolerance.description>
+  <!-- EN: small -->
+  <AmbrosiaTeaTolerance.stages.small.label>small</AmbrosiaTeaTolerance.stages.small.label>
+  <!-- EN: large -->
+  <AmbrosiaTeaTolerance.stages.large.label>large</AmbrosiaTeaTolerance.stages.large.label>
+  <!-- EN: massive -->
+  <AmbrosiaTeaTolerance.stages.massive.label>massive</AmbrosiaTeaTolerance.stages.massive.label>
+  <!-- EN: ambrosia tea -->
+  <ATeaHigh.label>ambrosia tea</ATeaHigh.label>
+  <!-- EN: ambrosia tea -->
+  <ATeaHigh.description>ambrosia tea</ATeaHigh.description>
+  <!-- EN: buzzed-hidden -->
+  <ATeaHigh.stages.buzzedhidden.label>buzzed-hidden</ATeaHigh.stages.buzzedhidden.label>
+  <!-- EN: slight effect -->
+  <ATeaHigh.stages.slight_effect.label>slight effect</ATeaHigh.stages.slight_effect.label>
+  <!-- EN: max effect -->
+  <ATeaHigh.stages.max_effect.label>max effect</ATeaHigh.stages.max_effect.label>
+</LanguageData>

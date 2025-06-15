@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mutagenic reaction (sil) -->
+  <SilReaction.stages.mutagenic_reaction_sil-0.label>mutagenic reaction (sil)</SilReaction.stages.mutagenic_reaction_sil-0.label>
+  <!-- EN: My body doesn't feel right. -->
+  <SilReaction.stages.mutagenic_reaction_sil-0.description>My body doesn't feel right.</SilReaction.stages.mutagenic_reaction_sil-0.description>
+  <!-- EN: mutagenic reaction (sil) -->
+  <SilReaction.stages.mutagenic_reaction_sil-1.label>mutagenic reaction (sil)</SilReaction.stages.mutagenic_reaction_sil-1.label>
+  <!-- EN: Ugh, I have an awful headache. -->
+  <SilReaction.stages.mutagenic_reaction_sil-1.description>Ugh, I have an awful headache.</SilReaction.stages.mutagenic_reaction_sil-1.description>
+  <!-- EN: mutagenic reaction (sil) -->
+  <SilReaction.stages.mutagenic_reaction_sil-2.label>mutagenic reaction (sil)</SilReaction.stages.mutagenic_reaction_sil-2.label>
+  <!-- EN: I am really uneasy. -->
+  <SilReaction.stages.mutagenic_reaction_sil-2.description>I am really uneasy.</SilReaction.stages.mutagenic_reaction_sil-2.description>
+</LanguageData>

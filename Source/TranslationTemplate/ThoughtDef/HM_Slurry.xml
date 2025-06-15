@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mutagenic reaction (slurry) -->
+  <SlurryReaction.stages.mutagenic_reaction_slurry-0.label>mutagenic reaction (slurry)</SlurryReaction.stages.mutagenic_reaction_slurry-0.label>
+  <!-- EN: That slurry was downright disgusting and my body doesn't feel right. -->
+  <SlurryReaction.stages.mutagenic_reaction_slurry-0.description>That slurry was downright disgusting and my body doesn't feel right.</SlurryReaction.stages.mutagenic_reaction_slurry-0.description>
+  <!-- EN: mutagenic reaction (slurry) -->
+  <SlurryReaction.stages.mutagenic_reaction_slurry-1.label>mutagenic reaction (slurry)</SlurryReaction.stages.mutagenic_reaction_slurry-1.label>
+  <!-- EN: My insides feel like they are on fire! -->
+  <SlurryReaction.stages.mutagenic_reaction_slurry-1.description>My insides feel like they are on fire!</SlurryReaction.stages.mutagenic_reaction_slurry-1.description>
+  <!-- EN: mutagenic reaction (slurry) -->
+  <SlurryReaction.stages.mutagenic_reaction_slurry-2.label>mutagenic reaction (slurry)</SlurryReaction.stages.mutagenic_reaction_slurry-2.label>
+  <!-- EN: I am really uneasy. -->
+  <SlurryReaction.stages.mutagenic_reaction_slurry-2.description>I am really uneasy.</SlurryReaction.stages.mutagenic_reaction_slurry-2.description>
+</LanguageData>

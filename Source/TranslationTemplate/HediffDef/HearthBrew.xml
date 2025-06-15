@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: hearth brew -->
+  <HearthBrewHigh.label>hearth brew</HearthBrewHigh.label>
+  <!-- EN: hearth brew -->
+  <HearthBrewHigh.description>hearth brew</HearthBrewHigh.description>
+  <!-- EN: warmed-hidden -->
+  <HearthBrewHigh.stages.warmedhidden.label>warmed-hidden</HearthBrewHigh.stages.warmedhidden.label>
+  <!-- EN: warmed -->
+  <HearthBrewHigh.stages.warmed.label>warmed</HearthBrewHigh.stages.warmed.label>
+  <!-- EN: cozy -->
+  <HearthBrewHigh.stages.cozy.label>cozy</HearthBrewHigh.stages.cozy.label>
+</LanguageData>

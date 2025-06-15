@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: igni -->
+  <Igni.label>igni</Igni.label>
+  <!-- EN: A red pill with a mutagenic serum inside, anyone who consumes the pill mutates irreversabily. Originally designed and mass produced to enhance manual labor in workers, it promptly received a ban on various worlds when unintended mutations started popping up. -->
+  <Igni.description>A red pill with a mutagenic serum inside, anyone who consumes the pill mutates irreversabily. Originally designed and mass produced to enhance manual labor in workers, it promptly received a ban on various worlds when unintended mutations started popping up.</Igni.description>
+  <!-- EN: Take {0} -->
+  <Igni.ingestible.ingestCommandString>Take {0}</Igni.ingestible.ingestCommandString>
+  <!-- EN: Taking {0}. -->
+  <Igni.ingestible.ingestReportString>Taking {0}.</Igni.ingestible.ingestReportString>
+</LanguageData>
